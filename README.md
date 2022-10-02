@@ -1,4 +1,4 @@
-# Java-project
+# Cloth Store Management System
 this is a simple java project 
 Download Intellij Idea community 
 open the folder in the application

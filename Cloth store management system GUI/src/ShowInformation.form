@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ShowInformation">
+  <grid id="27dc6" binding="mainpanel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="40" y="21" width="637" height="591"/>
+    </constraints>
+    <properties>
+      <background color="-2532996"/>
+    </properties>
+    <border type="empty" title="Information Display" title-justification="2" title-position="1">
+      <font size="26" style="1"/>
+      <title-color color="-1"/>
+    </border>
+    <children>
+      <component id="4d9ca" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="10" style="3"/>
+          <foreground color="-1"/>
+          <text value="@Shafiqul Islam"/>
+        </properties>
+      </component>
+      <component id="dfcc2" class="javax.swing.JTextArea" binding="displaytxt">
+        <constraints>
+          <grid row="0" column="1" row-span="3" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="1" use-parent-layout="false">
+            <preferred-size width="500" height="300"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2175e" class="javax.swing.JLabel" binding="exit">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="6" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="60" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7d64f" class="javax.swing.JButton" binding="print">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6786064"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9715a" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5918992"/>
+          <font size="16" style="1"/>
+          <foreground color="-1"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

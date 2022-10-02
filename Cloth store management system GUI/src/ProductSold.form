@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ProductSold">
+  <grid id="27dc6" binding="mainpanel" layout-manager="GridLayoutManager" row-count="12" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="18" y="24" width="854" height="505"/>
+    </constraints>
+    <properties>
+      <background color="-2532996"/>
+      <font size="16" style="3"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="empty" title="STORE PRODUCT SOLD LIST" title-justification="2" title-position="1">
+      <font size="24" style="1"/>
+      <title-color color="-1"/>
+    </border>
+    <children>
+      <component id="2929b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="3"/>
+          <foreground color="-1"/>
+          <text value="Product Name"/>
+        </properties>
+      </component>
+      <component id="19c03" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="3"/>
+          <foreground color="-1"/>
+          <text value="Quantity(total)"/>
+        </properties>
+      </component>
+      <component id="fef9a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="3"/>
+          <foreground color="-1"/>
+          <text value="Selling price Total"/>
+        </properties>
+      </component>
+      <component id="94b97" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="3"/>
+          <foreground color="-1"/>
+          <text value="Price (per)"/>
+        </properties>
+      </component>
+      <component id="a3ba1" class="javax.swing.JFormattedTextField" binding="quantity1">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="b0478" class="javax.swing.JFormattedTextField" binding="quantity2">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="5b2a4" class="javax.swing.JFormattedTextField" binding="quantity4">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="d24d7" class="javax.swing.JFormattedTextField" binding="quantity5">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="ac6d9" class="javax.swing.JFormattedTextField" binding="quantity6">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="82220" class="javax.swing.JFormattedTextField" binding="quantity7">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="b844b" class="javax.swing.JFormattedTextField" binding="priceperbox1">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="6745f" class="javax.swing.JFormattedTextField" binding="priceperbox2">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="93d84" class="javax.swing.JFormattedTextField" binding="priceperbox3">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="22c" class="javax.swing.JFormattedTextField" binding="priceperbox4">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="15663" class="javax.swing.JFormattedTextField" binding="priceperbox5">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="57618" class="javax.swing.JFormattedTextField" binding="priceperbox7">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="8a760" class="javax.swing.JFormattedTextField" binding="sellingpricetotalbox1">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="603da" class="javax.swing.JFormattedTextField" binding="sellingpricetotalbox2">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="90758" class="javax.swing.JFormattedTextField" binding="sellingpricetotalbox3">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="7cafd" class="javax.swing.JFormattedTextField" binding="sellingpricetotalbox4">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="9ea09" class="javax.swing.JFormattedTextField" binding="sellingpricetotalbox5">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="1f38" class="javax.swing.JFormattedTextField" binding="sellingpricetotalbox6">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="d23b3" class="javax.swing.JFormattedTextField" binding="sellingpricetotalbox7">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="9cd79" class="javax.swing.JLabel" binding="display">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14" style="3"/>
+          <foreground color="-1"/>
+          <text value="Display"/>
+        </properties>
+      </component>
+      <component id="af7f6" class="javax.swing.JTextArea" binding="soldItemListTextArea" default-binding="true">
+        <constraints>
+          <grid row="2" column="4" row-span="8" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="100"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="570bf" class="javax.swing.JFormattedTextField" binding="totalAmountOfQuantityFormattedTextField" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="5b9fe" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <foreground color="-1"/>
+          <labelFor value="e7448"/>
+          <text value="Total  amount"/>
+        </properties>
+      </component>
+      <component id="e7448" class="javax.swing.JFormattedTextField" binding="totalAmountSellingPriceFormattedTextField" default-binding="true">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="3d736" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <foreground color="-1"/>
+          <labelFor value="570bf"/>
+          <text value="Total Amount of Quantity"/>
+        </properties>
+      </component>
+      <component id="fc95e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <labelFor value="df74b"/>
+          <text value="DATE"/>
+        </properties>
+      </component>
+      <component id="df74b" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+            <item value="6"/>
+            <item value="7"/>
+            <item value="8"/>
+            <item value="9"/>
+            <item value="10"/>
+            <item value="11"/>
+            <item value="12"/>
+            <item value="13"/>
+            <item value="14"/>
+            <item value="15"/>
+            <item value="16"/>
+            <item value="17"/>
+            <item value="18"/>
+            <item value="19"/>
+            <item value="20"/>
+            <item value="21"/>
+            <item value="22"/>
+            <item value="23"/>
+            <item value="24"/>
+            <item value="25"/>
+            <item value="26"/>
+            <item value="27"/>
+            <item value="28"/>
+            <item value="29"/>
+            <item value="30"/>
+            <item value="31"/>
+          </model>
+        </properties>
+      </component>
+      <component id="516a3" class="javax.swing.JComboBox" binding="month">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="January"/>
+            <item value="February"/>
+            <item value="March"/>
+            <item value="April"/>
+            <item value="May"/>
+            <item value="June"/>
+            <item value="July"/>
+            <item value="August"/>
+            <item value="September"/>
+            <item value="Octobar"/>
+            <item value="November"/>
+            <item value="December"/>
+          </model>
+        </properties>
+      </component>
+      <component id="79cb2" class="javax.swing.JComboBox" binding="year">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="2020"/>
+            <item value="2021"/>
+            <item value="2022"/>
+            <item value="2023"/>
+            <item value="2024"/>
+            <item value="2025"/>
+          </model>
+        </properties>
+      </component>
+      <component id="eb409" class="javax.swing.JFormattedTextField" binding="quantity3">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="f6da2" class="javax.swing.JFormattedTextField" binding="priceperbox6">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="2766b" class="javax.swing.JComboBox" binding="product1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Blank"/>
+            <item value="_______________"/>
+            <item value="HALF-SHIRT"/>
+            <item value="FULL-SHIRT"/>
+            <item value="FORMAL-SHIRT"/>
+            <item value="HAWAIIAN-SHIRT"/>
+            <item value="SLEEVELESS-SHIRT"/>
+            <item value="-----------"/>
+            <item value="JEANS-PANT"/>
+            <item value="TWIll-PANT"/>
+            <item value="CARGO-PANT"/>
+            <item value="FORMAL-PANT"/>
+            <item value="3-QUATER-PANT"/>
+            <item value="-----------"/>
+            <item value="HALF-T-SHIRT"/>
+            <item value="FULL-T-SHIRT"/>
+            <item value="HALF-POLO-T-SHIRT"/>
+            <item value="FULL-POLO-T-SHIRT"/>
+            <item value="-----------"/>
+            <item value="BUISNESS-SHOE"/>
+            <item value="FLIP FLOPS"/>
+            <item value="SPORTS SHOES"/>
+            <item value="-----------"/>
+            <item value="SWEATER"/>
+            <item value="JUMPER"/>
+            <item value="PULLOVER"/>
+            <item value="-----------"/>
+            <item value="SUIT"/>
+            <item value="VEST"/>
+            <item value="CARDIGANS"/>
+            <item value="JACKET"/>
+            <item value="TRENCH COAT"/>
+            <item value="BATHROBE"/>
+            <item value="SWIMSUIT"/>
+            <item value="BLAZER"/>
+            <item value="-----------"/>
+            <item value="BOW TIE"/>
+            <item value="BELT"/>
+            <item value="UNDERPANT"/>
+            <item value="SOCKS"/>
+            <item value="TIE"/>
+            <item value="SCEARF"/>
+            <item value="SUN-GLASSES"/>
+            <item value="GLASSES"/>
+            <item value="WALLET"/>
+            <item value="WATCH"/>
+            <item value="SHORTS"/>
+            <item value="GLOVES"/>
+            <item value="CAP"/>
+            <item value="-----------"/>
+            <item value="BACK-PACK"/>
+            <item value="SCHOOL-BAG"/>
+            <item value="COLLAGE-BAG"/>
+          </model>
+        </properties>
+      </component>
+      <component id="59d07" class="javax.swing.JComboBox" binding="product2">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Blank"/>
+            <item value="_______________"/>
+            <item value="HALF-SHIRT"/>
+            <item value="FULL-SHIRT"/>
+            <item value="FORMAL-SHIRT"/>
+            <item value="HAWAIIAN-SHIRT"/>
+            <item value="SLEEVELESS-SHIRT"/>
+            <item value="-----------"/>
+            <item value="JEANS-PANT"/>
+            <item value="TWIll-PANT"/>
+            <item value="CARGO-PANT"/>
+            <item value="FORMAL-PANT"/>
+            <item value="3-QUATER-PANT"/>
+            <item value="-----------"/>
+            <item value="HALF-T-SHIRT"/>
+            <item value="FULL-T-SHIRT"/>
+            <item value="HALF-POLO-T-SHIRT"/>
+            <item value="FULL-POLO-T-SHIRT"/>
+            <item value="-----------"/>
+            <item value="BUISNESS-SHOE"/>
+            <item value="FLIP FLOPS"/>
+            <item value="SPORTS SHOES"/>
+            <item value="-----------"/>
+            <item value="SWEATER"/>
+            <item value="JUMPER"/>
+            <item value="PULLOVER"/>
+            <item value="-----------"/>
+            <item value="SUIT"/>
+            <item value="VEST"/>
+            <item value="CARDIGANS"/>
+            <item value="JACKET"/>
+            <item value="TRENCH COAT"/>
+            <item value="BATHROBE"/>
+            <item value="SWIMSUIT"/>
+            <item value="BLAZER"/>
+            <item value="-----------"/>
+            <item value="BOW TIE"/>
+            <item value="BELT"/>
+            <item value="UNDERPANT"/>
+            <item value="SOCKS"/>
+            <item value="TIE"/>
+            <item value="SCEARF"/>
+            <item value="SUN-GLASSES"/>
+            <item value="GLASSES"/>
+            <item value="WALLET"/>
+            <item value="WATCH"/>
+            <item value="SHORTS"/>
+            <item value="GLOVES"/>
+            <item value="CAP"/>
+            <item value="-----------"/>
+            <item value="BACK-PACK"/>
+            <item value="SCHOOL-BAG"/>
+            <item value="COLLAGE-BAG"/>
+          </model>
+        </properties>
+      </component>
+      <component id="2cde" class="javax.swing.JComboBox" binding="product3">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Blank"/>
+            <item value="_______________"/>
+            <item value="HALF-SHIRT"/>
+            <item value="FULL-SHIRT"/>
+            <item value="FORMAL-SHIRT"/>
+            <item value="HAWAIIAN-SHIRT"/>
+            <item value="SLEEVELESS-SHIRT"/>
+            <item value="-----------"/>
+            <item value="JEANS-PANT"/>
+            <item value="TWIll-PANT"/>
+            <item value="CARGO-PANT"/>
+            <item value="FORMAL-PANT"/>
+            <item value="3-QUATER-PANT"/>
+            <item value="-----------"/>
+            <item value="HALF-T-SHIRT"/>
+            <item value="FULL-T-SHIRT"/>
+            <item value="HALF-POLO-T-SHIRT"/>
+            <item value="FULL-POLO-T-SHIRT"/>
+            <item value="-----------"/>
+            <item value="BUISNESS-SHOE"/>
+            <item value="FLIP FLOPS"/>
+            <item value="SPORTS SHOES"/>
+            <item value="-----------"/>
+            <item value="SWEATER"/>
+            <item value="JUMPER"/>
+            <item value="PULLOVER"/>
+            <item value="-----------"/>
+            <item value="SUIT"/>
+            <item value="VEST"/>
+            <item value="CARDIGANS"/>
+            <item value="JACKET"/>
+            <item value="TRENCH COAT"/>
+            <item value="BATHROBE"/>
+            <item value="SWIMSUIT"/>
+            <item value="BLAZER"/>
+            <item value="-----------"/>
+            <item value="BOW TIE"/>
+            <item value="BELT"/>
+            <item value="UNDERPANT"/>
+            <item value="SOCKS"/>
+            <item value="TIE"/>
+            <item value="SCEARF"/>
+            <item value="SUN-GLASSES"/>
+            <item value="GLASSES"/>
+            <item value="WALLET"/>
+            <item value="WATCH"/>
+            <item value="SHORTS"/>
+            <item value="GLOVES"/>
+            <item value="CAP"/>
+            <item value="-----------"/>
+            <item value="BACK-PACK"/>
+            <item value="SCHOOL-BAG"/>
+            <item value="COLLAGE-BAG"/>
+          </model>
+        </properties>
+      </component>
+      <component id="10058" class="javax.swing.JComboBox" binding="product4">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Blank"/>
+            <item value="_______________"/>
+            <item value="HALF-SHIRT"/>
+            <item value="FULL-SHIRT"/>
+            <item value="FORMAL-SHIRT"/>
+            <item value="HAWAIIAN-SHIRT"/>
+            <item value="SLEEVELESS-SHIRT"/>
+            <item value="-----------"/>
+            <item value="JEANS-PANT"/>
+            <item value="TWIll-PANT"/>
+            <item value="CARGO-PANT"/>
+            <item value="FORMAL-PANT"/>
+            <item value="3-QUATER-PANT"/>
+            <item value="-----------"/>
+            <item value="HALF-T-SHIRT"/>
+            <item value="FULL-T-SHIRT"/>
+            <item value="HALF-POLO-T-SHIRT"/>
+            <item value="FULL-POLO-T-SHIRT"/>
+            <item value="-----------"/>
+            <item value="BUISNESS-SHOE"/>
+            <item value="FLIP FLOPS"/>
+            <item value="SPORTS SHOES"/>
+            <item value="-----------"/>
+            <item value="SWEATER"/>
+            <item value="JUMPER"/>
+            <item value="PULLOVER"/>
+            <item value="-----------"/>
+            <item value="SUIT"/>
+            <item value="VEST"/>
+            <item value="CARDIGANS"/>
+            <item value="JACKET"/>
+            <item value="TRENCH COAT"/>
+            <item value="BATHROBE"/>
+            <item value="SWIMSUIT"/>
+            <item value="BLAZER"/>
+            <item value="-----------"/>
+            <item value="BOW TIE"/>
+            <item value="BELT"/>
+            <item value="UNDERPANT"/>
+            <item value="SOCKS"/>
+            <item value="TIE"/>
+            <item value="SCEARF"/>
+            <item value="SUN-GLASSES"/>
+            <item value="GLASSES"/>
+            <item value="WALLET"/>
+            <item value="WATCH"/>
+            <item value="SHORTS"/>
+            <item value="GLOVES"/>
+            <item value="CAP"/>
+            <item value="-----------"/>
+            <item value="BACK-PACK"/>
+            <item value="SCHOOL-BAG"/>
+            <item value="COLLAGE-BAG"/>
+          </model>
+        </properties>
+      </component>
+      <component id="34670" class="javax.swing.JComboBox" binding="product5">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Blank"/>
+            <item value="_______________"/>
+            <item value="HALF-SHIRT"/>
+            <item value="FULL-SHIRT"/>
+            <item value="FORMAL-SHIRT"/>
+            <item value="HAWAIIAN-SHIRT"/>
+            <item value="SLEEVELESS-SHIRT"/>
+            <item value="-----------"/>
+            <item value="JEANS-PANT"/>
+            <item value="TWIll-PANT"/>
+            <item value="CARGO-PANT"/>
+            <item value="FORMAL-PANT"/>
+            <item value="3-QUATER-PANT"/>
+            <item value="-----------"/>
+            <item value="HALF-T-SHIRT"/>
+            <item value="FULL-T-SHIRT"/>
+            <item value="HALF-POLO-T-SHIRT"/>
+            <item value="FULL-POLO-T-SHIRT"/>
+            <item value="-----------"/>
+            <item value="BUISNESS-SHOE"/>
+            <item value="FLIP FLOPS"/>
+            <item value="SPORTS SHOES"/>
+            <item value="-----------"/>
+            <item value="SWEATER"/>
+            <item value="JUMPER"/>
+            <item value="PULLOVER"/>
+            <item value="-----------"/>
+            <item value="SUIT"/>
+            <item value="VEST"/>
+            <item value="CARDIGANS"/>
+            <item value="JACKET"/>
+            <item value="TRENCH COAT"/>
+            <item value="BATHROBE"/>
+            <item value="SWIMSUIT"/>
+            <item value="BLAZER"/>
+            <item value="-----------"/>
+            <item value="BOW TIE"/>
+            <item value="BELT"/>
+            <item value="UNDERPANT"/>
+            <item value="SOCKS"/>
+            <item value="TIE"/>
+            <item value="SCEARF"/>
+            <item value="SUN-GLASSES"/>
+            <item value="GLASSES"/>
+            <item value="WALLET"/>
+            <item value="WATCH"/>
+            <item value="SHORTS"/>
+            <item value="GLOVES"/>
+            <item value="CAP"/>
+            <item value="-----------"/>
+            <item value="BACK-PACK"/>
+            <item value="SCHOOL-BAG"/>
+            <item value="COLLAGE-BAG"/>
+          </model>
+        </properties>
+      </component>
+      <component id="1686b" class="javax.swing.JComboBox" binding="product6">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Blank"/>
+            <item value="_______________"/>
+            <item value="HALF-SHIRT"/>
+            <item value="FULL-SHIRT"/>
+            <item value="FORMAL-SHIRT"/>
+            <item value="HAWAIIAN-SHIRT"/>
+            <item value="SLEEVELESS-SHIRT"/>
+            <item value="-----------"/>
+            <item value="JEANS-PANT"/>
+            <item value="TWIll-PANT"/>
+            <item value="CARGO-PANT"/>
+            <item value="FORMAL-PANT"/>
+            <item value="3-QUATER-PANT"/>
+            <item value="-----------"/>
+            <item value="HALF-T-SHIRT"/>
+            <item value="FULL-T-SHIRT"/>
+            <item value="HALF-POLO-T-SHIRT"/>
+            <item value="FULL-POLO-T-SHIRT"/>
+            <item value="-----------"/>
+            <item value="BUISNESS-SHOE"/>
+            <item value="FLIP FLOPS"/>
+            <item value="SPORTS SHOES"/>
+            <item value="-----------"/>
+            <item value="SWEATER"/>
+            <item value="JUMPER"/>
+            <item value="PULLOVER"/>
+            <item value="-----------"/>
+            <item value="SUIT"/>
+            <item value="VEST"/>
+            <item value="CARDIGANS"/>
+            <item value="JACKET"/>
+            <item value="TRENCH COAT"/>
+            <item value="BATHROBE"/>
+            <item value="SWIMSUIT"/>
+            <item value="BLAZER"/>
+            <item value="-----------"/>
+            <item value="BOW TIE"/>
+            <item value="BELT"/>
+            <item value="UNDERPANT"/>
+            <item value="SOCKS"/>
+            <item value="TIE"/>
+            <item value="SCEARF"/>
+            <item value="SUN-GLASSES"/>
+            <item value="GLASSES"/>
+            <item value="WALLET"/>
+            <item value="WATCH"/>
+            <item value="SHORTS"/>
+            <item value="GLOVES"/>
+            <item value="CAP"/>
+            <item value="-----------"/>
+            <item value="BACK-PACK"/>
+            <item value="SCHOOL-BAG"/>
+            <item value="COLLAGE-BAG"/>
+          </model>
+        </properties>
+      </component>
+      <component id="fb17a" class="javax.swing.JComboBox" binding="product7">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="3"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Blank"/>
+            <item value="_______________"/>
+            <item value="HALF-SHIRT"/>
+            <item value="FULL-SHIRT"/>
+            <item value="FORMAL-SHIRT"/>
+            <item value="HAWAIIAN-SHIRT"/>
+            <item value="SLEEVELESS-SHIRT"/>
+            <item value="-----------"/>
+            <item value="JEANS-PANT"/>
+            <item value="TWIll-PANT"/>
+            <item value="CARGO-PANT"/>
+            <item value="FORMAL-PANT"/>
+            <item value="3-QUATER-PANT"/>
+            <item value="-----------"/>
+            <item value="HALF-T-SHIRT"/>
+            <item value="FULL-T-SHIRT"/>
+            <item value="HALF-POLO-T-SHIRT"/>
+            <item value="FULL-POLO-T-SHIRT"/>
+            <item value="-----------"/>
+            <item value="BUISNESS-SHOE"/>
+            <item value="FLIP FLOPS"/>
+            <item value="SPORTS SHOES"/>
+            <item value="-----------"/>
+            <item value="SWEATER"/>
+            <item value="JUMPER"/>
+            <item value="PULLOVER"/>
+            <item value="-----------"/>
+            <item value="SUIT"/>
+            <item value="VEST"/>
+            <item value="CARDIGANS"/>
+            <item value="JACKET"/>
+            <item value="TRENCH COAT"/>
+            <item value="BATHROBE"/>
+            <item value="SWIMSUIT"/>
+            <item value="BLAZER"/>
+            <item value="-----------"/>
+            <item value="BOW TIE"/>
+            <item value="BELT"/>
+            <item value="UNDERPANT"/>
+            <item value="SOCKS"/>
+            <item value="TIE"/>
+            <item value="SCEARF"/>
+            <item value="SUN-GLASSES"/>
+            <item value="GLASSES"/>
+            <item value="WALLET"/>
+            <item value="WATCH"/>
+            <item value="SHORTS"/>
+            <item value="GLOVES"/>
+            <item value="CAP"/>
+            <item value="-----------"/>
+            <item value="BACK-PACK"/>
+            <item value="SCHOOL-BAG"/>
+            <item value="COLLAGE-BAG"/>
+          </model>
+        </properties>
+      </component>
+      <component id="2c1fe" class="javax.swing.JLabel" binding="exit">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="6" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="60" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="54dca" class="javax.swing.JButton" binding="CALCULATEButton">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6786064"/>
+          <font size="16" style="1"/>
+          <foreground color="-1"/>
+          <text value="sum"/>
+        </properties>
+      </component>
+      <component id="e631f" class="javax.swing.JButton" binding="saveButton">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6721040"/>
+          <font size="16" style="1"/>
+          <foreground color="-1"/>
+          <text value="save"/>
+        </properties>
+      </component>
+      <component id="8ab8f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="10" style="3"/>
+          <foreground color="-1"/>
+          <text value="@Shafiqul Islam"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

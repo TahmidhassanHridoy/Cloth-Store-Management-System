@@ -1,0 +1,3025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="StoreStaffInfo">
+  <grid id="27dc6" binding="mainpanel" layout-manager="GridLayoutManager" row-count="17" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="3">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="26" y="22" width="777" height="671"/>
+    </constraints>
+    <properties>
+      <background color="-2532996"/>
+      <font size="16" style="3"/>
+      <foreground color="-263173"/>
+    </properties>
+    <border type="empty" title="Store Staff Iformation" title-justification="2" title-position="1">
+      <font size="26" style="1"/>
+      <title-color color="-1"/>
+    </border>
+    <children>
+      <component id="e7a96" class="javax.swing.JTextField" binding="NAMETextField" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="true"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="57ccc" class="javax.swing.JTextField" binding="paddress">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="true"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b20c9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="3"/>
+          <foreground color="-263173"/>
+          <labelFor value="e7a96"/>
+          <text value="NAME:"/>
+        </properties>
+      </component>
+      <component id="a56c1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="2" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="3"/>
+          <foreground color="-263173"/>
+          <labelFor value="57ccc"/>
+          <text value="Permanent Address:"/>
+        </properties>
+      </component>
+      <component id="96463" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="2" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9265409"/>
+          <font size="10" style="3"/>
+          <foreground color="-1"/>
+          <text value="@Shafiqul Islam"/>
+        </properties>
+      </component>
+      <component id="f8f94" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="3"/>
+          <foreground color="-263173"/>
+          <labelFor value="91a2e"/>
+          <text value="Join "/>
+        </properties>
+      </component>
+      <component id="91a2e" class="javax.swing.JComboBox" binding="joinDate">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Date"/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+            <item value="6"/>
+            <item value="7"/>
+            <item value="8"/>
+            <item value="9"/>
+            <item value="10"/>
+            <item value="11"/>
+            <item value="12"/>
+            <item value="13"/>
+            <item value="14"/>
+            <item value="15"/>
+            <item value="16"/>
+            <item value="17"/>
+            <item value="18"/>
+            <item value="19"/>
+            <item value="20"/>
+            <item value="21"/>
+            <item value="22"/>
+            <item value="23"/>
+            <item value="24"/>
+            <item value="25"/>
+            <item value="26"/>
+            <item value="27"/>
+            <item value="28"/>
+            <item value="29"/>
+            <item value="30"/>
+            <item value="31"/>
+          </model>
+        </properties>
+      </component>
+      <component id="3b318" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="12" style="1"/>
+          <foreground color="-263173"/>
+          <labelFor value="cb3e0"/>
+          <text value="Phone:"/>
+        </properties>
+      </component>
+      <component id="903f8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="3"/>
+          <foreground color="-263173"/>
+          <labelFor value="19f64"/>
+          <text value="Salary"/>
+        </properties>
+      </component>
+      <component id="19f64" class="javax.swing.JTextField" binding="salaryTextField" default-binding="true">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d4ca5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="5" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="3"/>
+          <foreground color="-263173"/>
+          <labelFor value="e7714"/>
+          <text value="Gender"/>
+        </properties>
+      </component>
+      <component id="95ad8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Date of Birth"/>
+        </properties>
+      </component>
+      <component id="51bc3" class="javax.swing.JComboBox" binding="Birthdate">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Date"/>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+            <item value="6"/>
+            <item value="7"/>
+            <item value="8"/>
+            <item value="9"/>
+            <item value="10"/>
+            <item value="11"/>
+            <item value="12"/>
+            <item value="13"/>
+            <item value="14"/>
+            <item value="15"/>
+            <item value="16"/>
+            <item value="17"/>
+            <item value="18"/>
+            <item value="19"/>
+            <item value="20"/>
+            <item value="21"/>
+            <item value="22"/>
+            <item value="23"/>
+            <item value="24"/>
+            <item value="25"/>
+            <item value="26"/>
+            <item value="27"/>
+            <item value="28"/>
+            <item value="29"/>
+            <item value="30"/>
+            <item value="31"/>
+          </model>
+        </properties>
+      </component>
+      <component id="e7310" class="javax.swing.JTextArea" binding="SavedInformation">
+        <constraints>
+          <grid row="1" column="4" row-span="11" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="dc06c" class="javax.swing.JLabel" binding="display">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14" style="3"/>
+          <foreground color="-1"/>
+          <text value="Display"/>
+        </properties>
+      </component>
+      <component id="dbbbe" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Present Address:"/>
+        </properties>
+      </component>
+      <component id="e3490" class="javax.swing.JTextField" binding="houseNoRoadNoTextField" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="true"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c1e7a" class="javax.swing.JTextField" binding="postOfficeNameTextField" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="true"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="38f61" class="javax.swing.JTextField" binding="mailidTextField">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="if any"/>
+        </properties>
+      </component>
+      <component id="78112" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Mail ID"/>
+        </properties>
+      </component>
+      <component id="cb3e0" class="javax.swing.JTextField" binding="phoneTextField" default-binding="true">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="+088"/>
+        </properties>
+      </component>
+      <component id="d6944" class="javax.swing.JTextField" binding="voterIDTextField" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9f64d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2532996"/>
+          <font size="12" style="1"/>
+          <foreground color="-1"/>
+          <text value="Post Office Name "/>
+        </properties>
+      </component>
+      <component id="3d5e" class="javax.swing.JTextField" binding="cityPostCodeTextField" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c8ef5" class="javax.swing.JTextField" binding="designationTextField" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c6ea8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2532996"/>
+          <font size="12" style="1"/>
+          <foreground color="-1"/>
+          <text value="Designation"/>
+        </properties>
+      </component>
+      <component id="8594f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2532996"/>
+          <font size="12" style="1"/>
+          <foreground color="-1"/>
+          <text value="Voter ID"/>
+        </properties>
+      </component>
+      <component id="98a9e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2532996"/>
+          <font size="12" style="1"/>
+          <foreground color="-1"/>
+          <text value="City and Post code"/>
+        </properties>
+      </component>
+      <component id="eabb3" class="javax.swing.JComboBox" binding="birthmonth">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Month"/>
+            <item value="January"/>
+            <item value="February"/>
+            <item value="March"/>
+            <item value="April"/>
+            <item value="May"/>
+            <item value="June"/>
+            <item value="July"/>
+            <item value="August"/>
+            <item value="September"/>
+            <item value="Octobar"/>
+            <item value="November"/>
+            <item value="December"/>
+          </model>
+        </properties>
+      </component>
+      <component id="aabf3" class="javax.swing.JComboBox" binding="joinmonth">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Month"/>
+            <item value="January"/>
+            <item value="February"/>
+            <item value="March"/>
+            <item value="April"/>
+            <item value="May"/>
+            <item value="June"/>
+            <item value="July"/>
+            <item value="August"/>
+            <item value="September"/>
+            <item value="Octobar"/>
+            <item value="November"/>
+            <item value="December"/>
+          </model>
+        </properties>
+      </component>
+      <component id="3aae5" class="javax.swing.JComboBox" binding="divisition">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="DIVISION"/>
+            <item value="____________"/>
+            <item value="DHAKA"/>
+            <item value="CHITTAGONG"/>
+            <item value="RANGPUR"/>
+            <item value="RAJSHAHI"/>
+            <item value="SYLHET"/>
+            <item value="MYMENSHINGH"/>
+            <item value="BARISAL"/>
+            <item value="KHULNA"/>
+          </model>
+        </properties>
+      </component>
+      <component id="be76b" class="javax.swing.JComboBox" binding="district">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="false"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="District"/>
+            <item value="BARISAL DIVISION"/>
+            <item value=""/>
+            <item value="BARGUNA"/>
+            <item value="BARISAL"/>
+            <item value="JHALOKATI"/>
+            <item value="PATUAKHALI"/>
+            <item value="PIROJPUR"/>
+            <item value=""/>
+            <item value="CHITTAGONG DIVISION"/>
+            <item value=""/>
+            <item value="BANDARBAN"/>
+            <item value="BRAHMANBARIA"/>
+            <item value="CHANDPUR"/>
+            <item value="CHITTAGONG"/>
+            <item value="COMILLA"/>
+            <item value="COX'S BAZAR"/>
+            <item value="FENI"/>
+            <item value="KHAGRACHHARI"/>
+            <item value="RAMGARH"/>
+            <item value="LAKSHMIPUR"/>
+            <item value="NOAKHALI"/>
+            <item value="RANGAMATI"/>
+            <item value=""/>
+            <item value="DHAKA DIVISION"/>
+            <item value=""/>
+            <item value="DHAKA"/>
+            <item value="FARIDPUR"/>
+            <item value="GAZIPUR"/>
+            <item value="GOPALGANJ"/>
+            <item value="JAMALPUR"/>
+            <item value="KISHOREGONJ"/>
+            <item value="MADARIPUR"/>
+            <item value="MANIKGANJ"/>
+            <item value="MUNSHIGANJ"/>
+            <item value="MYMENSINGH"/>
+            <item value="NARAYANGANJ"/>
+            <item value="NARSINGDI"/>
+            <item value="NETRAKONA"/>
+            <item value="RAJBARI"/>
+            <item value="SHARIATPUR"/>
+            <item value="SHERPUR"/>
+            <item value="TANGAIL"/>
+            <item value=""/>
+            <item value="KHULNA DIVISION"/>
+            <item value=""/>
+            <item value="BAGERHAT"/>
+            <item value="CHUADANGA"/>
+            <item value="JESSORE"/>
+            <item value="JHENAIDAH"/>
+            <item value="KHULNA"/>
+            <item value="KUSHTIA"/>
+            <item value="MAGURA"/>
+            <item value="MEHERPUR"/>
+            <item value="NARAIL"/>
+            <item value="SATKHIRA"/>
+            <item value=""/>
+            <item value="RAJSHAHI DIVISION"/>
+            <item value=""/>
+            <item value="BOGRA"/>
+            <item value="JOYPURHAT"/>
+            <item value="NAOGAON"/>
+            <item value="NATORE"/>
+            <item value="CHAPAI NABABGANJ"/>
+            <item value="PABNA"/>
+            <item value="RAJSHAHI"/>
+            <item value="DUM"/>
+            <item value="TANORE"/>
+            <item value="SIRAJGANJ"/>
+            <item value=""/>
+            <item value="RANGPUR DIVISION"/>
+            <item value=""/>
+            <item value="DINAJPUR"/>
+            <item value="GAIBANDHA"/>
+            <item value="KURIGRAM"/>
+            <item value="LALMONIRHAT"/>
+            <item value="NILPHAMARI ZILA"/>
+            <item value="PANCHAGARH"/>
+            <item value="RANGPUR"/>
+            <item value="THAKURGAON"/>
+            <item value=""/>
+            <item value="SYLHET DIVISION"/>
+            <item value=""/>
+            <item value="HABIGANJ"/>
+            <item value="MAULVIBAZAR"/>
+            <item value="SUNAMGANJ"/>
+            <item value="SYLHET"/>
+          </model>
+        </properties>
+      </component>
+      <component id="181b3" class="javax.swing.JComboBox" binding="upazila">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="UPAZILA"/>
+            <item value=""/>
+            <item value="BARISAL DIVISION"/>
+            <item value=""/>
+            <item value="BARGUNA"/>
+            <item value=""/>
+            <item value="AMTALI"/>
+            <item value="BAMNA"/>
+            <item value="BARGUNA SADAR"/>
+            <item value="BETAGI"/>
+            <item value="PATHARGHA"/>
+            <item value="TATALTALI"/>
+            <item value=""/>
+            <item value="BARISAL"/>
+            <item value=""/>
+            <item value="AGAILJHARA"/>
+            <item value="BABUGANJ"/>
+            <item value="BAKERGANJ"/>
+            <item value="BANARI PARA"/>
+            <item value="GAURNADI"/>
+            <item value="HIZLA"/>
+            <item value="BARISAL SADAR (KOTWALI)"/>
+            <item value="MHENDIGANJ"/>
+            <item value="MULADI"/>
+            <item value="WAZIRPUR"/>
+            <item value="BHOLA"/>
+            <item value="BHOLA SADAR"/>
+            <item value="BURHANUDDIN"/>
+            <item value="CHAR FASSON"/>
+            <item value="DAULAT KHAN"/>
+            <item value="LALMOHAN"/>
+            <item value="MANPURA"/>
+            <item value="TAZUMUDDIN"/>
+            <item value=""/>
+            <item value="JHALOKATI"/>
+            <item value=""/>
+            <item value="JHALOKATI SADAR"/>
+            <item value="KANTHALIA"/>
+            <item value="NALCHITY"/>
+            <item value="RAJAPUR"/>
+            <item value=""/>
+            <item value="PATUAKHALI"/>
+            <item value=""/>
+            <item value="BAUPHAL"/>
+            <item value="DASHMINA"/>
+            <item value="DUMKI"/>
+            <item value="GALACHIPA"/>
+            <item value="KALAPARA"/>
+            <item value="MIRZAGANJ"/>
+            <item value="PATUAKHALI SADAR"/>
+            <item value="RANGABALI"/>
+            <item value=""/>
+            <item value="PIROJPUR"/>
+            <item value=""/>
+            <item value="BHANDARIA"/>
+            <item value="KAWKHALI"/>
+            <item value="MATHBARIA"/>
+            <item value="NAZIRPUR"/>
+            <item value="PIROJPUR SADAR"/>
+            <item value="NESARABAD (SWARUPKATI)"/>
+            <item value="ZIANAGAR"/>
+            <item value=""/>
+            <item value="CHITTAGONG DIVISION"/>
+            <item value=""/>
+            <item value="BANDARBAN"/>
+            <item value=""/>
+            <item value="ALIKADAM"/>
+            <item value="BANDARBAN SADAR"/>
+            <item value="LAMA"/>
+            <item value="NAIKHONGCHHARI"/>
+            <item value="ROWANGCHHARI"/>
+            <item value="RUMA"/>
+            <item value="THANCHI"/>
+            <item value=""/>
+            <item value="BRAHMANBARIA"/>
+            <item value=""/>
+            <item value="AKHAURA"/>
+            <item value="BANCHHARAMPUR"/>
+            <item value="BIJOYNAGAR"/>
+            <item value="BRAHMANBARIA SADAR"/>
+            <item value="ASHUGANJ"/>
+            <item value="KASBA"/>
+            <item value="NABINAGAR"/>
+            <item value="NASIRNAGAR"/>
+            <item value="SARAIL"/>
+            <item value=""/>
+            <item value="CHANDPUR"/>
+            <item value=""/>
+            <item value="CHANDPUR SADAR"/>
+            <item value="FARIDGANJ"/>
+            <item value="HAIM CHAR"/>
+            <item value="HAJIGANJ"/>
+            <item value="KACHUA"/>
+            <item value="MATLAB DAKSHIN"/>
+            <item value="MATLAB UTTAR"/>
+            <item value="SHAHRASTI"/>
+            <item value=""/>
+            <item value="CHITTAGONG"/>
+            <item value=""/>
+            <item value="ANOWARA"/>
+            <item value="BAYEJID BOSTAMI"/>
+            <item value="BANSHKHALI"/>
+            <item value="BAKALIA"/>
+            <item value="BOALKHALI"/>
+            <item value="CHANDANAISH"/>
+            <item value="CHANDGAON"/>
+            <item value="CHITTAGONG PORT"/>
+            <item value="DOUBLE MOORING"/>
+            <item value="FATIKCHHARI"/>
+            <item value="HALISHAHAR"/>
+            <item value="HATHAZARI"/>
+            <item value="KOTWALI"/>
+            <item value="KHULSHI"/>
+            <item value="LOHAGARA"/>
+            <item value="MIRSHARAI"/>
+            <item value="PAHARTALI"/>
+            <item value="PANCHLAISH"/>
+            <item value="PATIYA"/>
+            <item value="PATENGA"/>
+            <item value="RANGUNIA"/>
+            <item value="RAOZAN"/>
+            <item value="SANDWIP"/>
+            <item value="SATKANIA"/>
+            <item value="SITAKUNDA"/>
+            <item value=""/>
+            <item value="COMILLA"/>
+            <item value=""/>
+            <item value="BARURA"/>
+            <item value="BRAHMAN PARA"/>
+            <item value="BURICHANG"/>
+            <item value="CHANDINA"/>
+            <item value="CHAUDDAGRAM"/>
+            <item value="COMILLA SADAR DAKSHIN"/>
+            <item value="DAUDKANDI"/>
+            <item value="DEBIDWAR"/>
+            <item value="HOMNA"/>
+            <item value="COMILLA ADARSHA SADAR"/>
+            <item value="LAKSAM"/>
+            <item value="MANOHARGANJ"/>
+            <item value="MEGHNA"/>
+            <item value="MURADNAGAR"/>
+            <item value="NANGALKOT"/>
+            <item value="TITAS"/>
+            <item value=""/>
+            <item value="COX'S BAZAR"/>
+            <item value=""/>
+            <item value="CHAKARIA"/>
+            <item value="COX'S BAZAR SADAR"/>
+            <item value="KUTUBDIA"/>
+            <item value="MAHESHKHALI"/>
+            <item value="PEKUA"/>
+            <item value="RAMU"/>
+            <item value="TEKNAF"/>
+            <item value="UKHIA"/>
+            <item value=""/>
+            <item value="FENI"/>
+            <item value=""/>
+            <item value="CHHAGALNAIYA"/>
+            <item value="DAGANBHUIYAN"/>
+            <item value="FENI SADAR"/>
+            <item value="FULGAZI"/>
+            <item value="PARSHURAM"/>
+            <item value="SONAGAZI"/>
+            <item value=""/>
+            <item value="KHAGRACHHARI"/>
+            <item value=""/>
+            <item value="DIGHINALA"/>
+            <item value="KHAGRACHHARI SADAR"/>
+            <item value="LAKSHMICHHARI"/>
+            <item value="MAHALCHHARI"/>
+            <item value="MANIKCHHARI"/>
+            <item value="MATIRANGA"/>
+            <item value="PANCHHARI"/>
+            <item value="RAMGARH"/>
+            <item value=""/>
+            <item value="LAKSHMIPUR"/>
+            <item value=""/>
+            <item value="KAMALNAGAR"/>
+            <item value="LAKSHMIPUR SADAR"/>
+            <item value="ROYPUR"/>
+            <item value="RAMGANJ"/>
+            <item value="RAMGATI"/>
+            <item value=""/>
+            <item value="NOAKHALI"/>
+            <item value=""/>
+            <item value="BEGUMGANJ"/>
+            <item value="CHATKHIL"/>
+            <item value="COMPANIGANJ"/>
+            <item value="HATIYA"/>
+            <item value="KABIRHAT"/>
+            <item value="SENBAGH"/>
+            <item value="SONAIMURI"/>
+            <item value="SUBARNACHAR"/>
+            <item value="NOAKHALI SADAR"/>
+            <item value=""/>
+            <item value="RANGAMATI"/>
+            <item value=""/>
+            <item value="BAGHAICHHARI"/>
+            <item value="BARKAL UPAZILA"/>
+            <item value="KAWKHALI (BETBUNIA)"/>
+            <item value="BELAI CHHARI  UPAZI"/>
+            <item value="KAPTAI  UPAZILA"/>
+            <item value="JURAI CHHARI UPAZIL"/>
+            <item value="LANGADU  UPAZILA"/>
+            <item value="NANIARCHAR  UPAZILA"/>
+            <item value="RAJASTHALI  UPAZILA"/>
+            <item value="RANGAMATI SADAR  UP"/>
+            <item value=""/>
+            <item value="DHAKA DIVISION"/>
+            <item value=""/>
+            <item value="DHAKA"/>
+            <item value=""/>
+            <item value="ADABOR"/>
+            <item value="BADDA"/>
+            <item value="BANGSHAL"/>
+            <item value="BIMAN BANDAR"/>
+            <item value="BANANI"/>
+            <item value="CANTONMENT"/>
+            <item value="CHAK BAZAR"/>
+            <item value="DAKSHINKHAN"/>
+            <item value="DARUS SALAM"/>
+            <item value="DEMRA"/>
+            <item value="DHAMRAI"/>
+            <item value="DHANMONDI"/>
+            <item value="DOHAR"/>
+            <item value="BHASAN TEK"/>
+            <item value="BHATARA"/>
+            <item value="GENDARIA"/>
+            <item value="GULSHAN"/>
+            <item value="HAZARIBAGH"/>
+            <item value="JATRABARI"/>
+            <item value="KAFRUL"/>
+            <item value="KADAMTALI"/>
+            <item value="KALABAGAN"/>
+            <item value="KAMRANGIR CHAR"/>
+            <item value="KHILGAON"/>
+            <item value="KHILKHET"/>
+            <item value="KERANIGANJ"/>
+            <item value="KOTWALI"/>
+            <item value="LALBAGH"/>
+            <item value="MIRPUR"/>
+            <item value="MOHAMMADPUR"/>
+            <item value="MOTIJHEEL"/>
+            <item value="MUGDA PARA"/>
+            <item value="NAWABGANJ"/>
+            <item value="NEW MARKET"/>
+            <item value="PALLABI"/>
+            <item value="PALTAN"/>
+            <item value="RAMNA"/>
+            <item value="RAMPURA"/>
+            <item value="SABUJBAGH"/>
+            <item value="RUPNAGAR"/>
+            <item value="SAVAR"/>
+            <item value="SHAHJAHANPUR"/>
+            <item value="SHAH ALI"/>
+            <item value="SHAHBAGH"/>
+            <item value="SHYAMPUR"/>
+            <item value="SHEREBANGLA NAGAR"/>
+            <item value="SUTRAPUR"/>
+            <item value="TEJGAON"/>
+            <item value="TEJGAON IND. AREA"/>
+            <item value="TURAG"/>
+            <item value="UTTARA  PASCHIM"/>
+            <item value="UTTARA  PURBA"/>
+            <item value="UTTAR KHAN"/>
+            <item value="WARI"/>
+            <item value=""/>
+            <item value="FARIDPUR"/>
+            <item value=""/>
+            <item value="ALFADANGA"/>
+            <item value="BHANGA"/>
+            <item value="BOALMARI"/>
+            <item value="CHAR BHADRASAN"/>
+            <item value="FARIDPUR SADAR"/>
+            <item value="MADHUKHALI"/>
+            <item value="NAGARKANDA"/>
+            <item value="SADARPUR"/>
+            <item value="SALTHA"/>
+            <item value=""/>
+            <item value="GAZIPUR"/>
+            <item value=""/>
+            <item value="GAZIPUR SADAR"/>
+            <item value="KALIAKAIR"/>
+            <item value="KALIGANJ"/>
+            <item value="KAPASIA"/>
+            <item value="SREEPUR"/>
+            <item value=""/>
+            <item value="GOPALGANJ"/>
+            <item value=""/>
+            <item value="GOPALGANJ SADAR"/>
+            <item value="KASHIANI"/>
+            <item value="KOTALIPARA"/>
+            <item value="MUKSUDPUR"/>
+            <item value="TUNGIPARA"/>
+            <item value=""/>
+            <item value="JAMALPUR"/>
+            <item value=""/>
+            <item value="BAKSHIGANJ"/>
+            <item value="DEWANGANJ"/>
+            <item value="ISLAMPUR"/>
+            <item value="JAMALPUR SADAR"/>
+            <item value="MADARGANJ"/>
+            <item value="MELANDAHA"/>
+            <item value="SARISHABARI UPAZILA"/>
+            <item value=""/>
+            <item value="KISHOREGONJ"/>
+            <item value=""/>
+            <item value="AUSTAGRAM"/>
+            <item value="BAJITPUR"/>
+            <item value="BHAIRAB"/>
+            <item value="HOSSAINPUR"/>
+            <item value="ITNA"/>
+            <item value="KARIMGANJ"/>
+            <item value="KATIADI"/>
+            <item value="KISHOREGANJ SADAR"/>
+            <item value="KULIAR CHAR"/>
+            <item value="MITHAMAIN"/>
+            <item value="NIKLI"/>
+            <item value="PAKUNDIA"/>
+            <item value="TARAIL"/>
+            <item value=""/>
+            <item value="MADARIPUR"/>
+            <item value=""/>
+            <item value="KALKINI"/>
+            <item value="MADARIPUR SADAR"/>
+            <item value="RAJOIR"/>
+            <item value="SHIBCHAR"/>
+            <item value=""/>
+            <item value="MANIKGANJ"/>
+            <item value=""/>
+            <item value="DAULATPUR"/>
+            <item value="GHIOR"/>
+            <item value="HARIRAMPUR"/>
+            <item value="MANIKGANJ SADAR"/>
+            <item value="SATURIA"/>
+            <item value="SHIBALAYA"/>
+            <item value="SINGAIR"/>
+            <item value=""/>
+            <item value="MUNSHIGANJ"/>
+            <item value=""/>
+            <item value="GAZARIA"/>
+            <item value="LOHAJANG"/>
+            <item value="MUNSHIGANJ SADAR"/>
+            <item value="SERAJDIKHAN"/>
+            <item value="SREENAGAR"/>
+            <item value="TONGIBARI"/>
+            <item value=""/>
+            <item value="MYMENSINGH"/>
+            <item value=""/>
+            <item value="BHALUKA"/>
+            <item value="DHOBAURA"/>
+            <item value="FULBARIA"/>
+            <item value="GAFFARGAON"/>
+            <item value="GAURIPUR"/>
+            <item value="HALUAGHAT"/>
+            <item value="ISHWARGANJ"/>
+            <item value="MYMENSINGH SADAR"/>
+            <item value="MUKTAGACHHA"/>
+            <item value="NANDAIL"/>
+            <item value="PHULPUR"/>
+            <item value="TRISHAL"/>
+            <item value=""/>
+            <item value="NARAYANGANJ"/>
+            <item value=""/>
+            <item value="ARAIHAZAR"/>
+            <item value="SONARGAON"/>
+            <item value="BANDAR"/>
+            <item value="NARAYANGANJ SADAR"/>
+            <item value="RUPGANJ"/>
+            <item value=""/>
+            <item value="NARSINGDI"/>
+            <item value=""/>
+            <item value="BELABO"/>
+            <item value="MANOHARDI"/>
+            <item value="NARSINGDI SADAR"/>
+            <item value="PALASH"/>
+            <item value="ROYPURA"/>
+            <item value="SHIBPUR"/>
+            <item value=""/>
+            <item value="NETRAKONA"/>
+            <item value=""/>
+            <item value="ATPARA"/>
+            <item value="BARHATTA"/>
+            <item value="DURGAPUR"/>
+            <item value="KHALIAJURI"/>
+            <item value="KALMAKANDA"/>
+            <item value="KENDUA"/>
+            <item value="MADAN"/>
+            <item value="MOHANGANJ"/>
+            <item value="NETROKONA SADAR"/>
+            <item value="PURBADHALA"/>
+            <item value=""/>
+            <item value="RAJBARI"/>
+            <item value=""/>
+            <item value="BALIAKANDI"/>
+            <item value="GOALANDA"/>
+            <item value="KALUKHALI"/>
+            <item value="PANGSHA"/>
+            <item value="RAJBARI SADAR"/>
+            <item value=""/>
+            <item value="SHARIATPUR"/>
+            <item value=""/>
+            <item value="BHEDARGANJ"/>
+            <item value="DAMUDYA"/>
+            <item value="GOSAIRHAT"/>
+            <item value="NARIA"/>
+            <item value="SHARIATPUR SADAR"/>
+            <item value="ZANJIRA"/>
+            <item value=""/>
+            <item value="SHERPUR"/>
+            <item value=""/>
+            <item value="JHENAIGATI"/>
+            <item value="NAKLA"/>
+            <item value="NALITABARI"/>
+            <item value="SHERPUR SADAR"/>
+            <item value="SREEBARDI"/>
+            <item value=""/>
+            <item value="TANGAIL"/>
+            <item value=""/>
+            <item value="BASAIL"/>
+            <item value="BHUAPUR"/>
+            <item value="DELDUAR"/>
+            <item value="DHANBARI"/>
+            <item value="GHATAIL"/>
+            <item value="GOPALPUR"/>
+            <item value="KALIHATI"/>
+            <item value="MADHUPUR"/>
+            <item value="MIRZAPUR"/>
+            <item value="NAGARPUR"/>
+            <item value="SAKHIPUR"/>
+            <item value="TANGAIL SADAR"/>
+            <item value=""/>
+            <item value="KHULNA DIVISION"/>
+            <item value=""/>
+            <item value="BAGERHAT"/>
+            <item value=""/>
+            <item value="BAGERHAT SADAR"/>
+            <item value="CHITALMARI"/>
+            <item value="FAKIRHAT"/>
+            <item value="KACHUA"/>
+            <item value="MOLLAHAT"/>
+            <item value="MONGLA"/>
+            <item value="MORRELGANJ"/>
+            <item value="RAMPAL"/>
+            <item value="SARANKHOLA"/>
+            <item value=""/>
+            <item value="CHUADANGA"/>
+            <item value=""/>
+            <item value="ALAMDANGA"/>
+            <item value="CHUADANGA SADAR"/>
+            <item value="DAMURHUDA"/>
+            <item value="JIBAN NAGAR"/>
+            <item value=""/>
+            <item value="JESSORE"/>
+            <item value=""/>
+            <item value="ABHAYNAGAR"/>
+            <item value="BAGHER PARA"/>
+            <item value="CHAUGACHHA"/>
+            <item value="JHIKARGACHHA"/>
+            <item value="KESHABPUR"/>
+            <item value="JESSORE SADAR"/>
+            <item value="MANIRAMPUR"/>
+            <item value="SHARSHA"/>
+            <item value=""/>
+            <item value="JHENAIDAH"/>
+            <item value=""/>
+            <item value="HARINAKUNDA"/>
+            <item value="JHENAIDAH SADAR"/>
+            <item value="KALIGANJ"/>
+            <item value="KOTCHANDPUR"/>
+            <item value="MAHESHPUR"/>
+            <item value="SHAILKUPA"/>
+            <item value=""/>
+            <item value="KHULNA"/>
+            <item value=""/>
+            <item value="BATIAGHATA"/>
+            <item value="DACOPE"/>
+            <item value="DAULATPUR"/>
+            <item value="DUMURIA"/>
+            <item value="DIGHALIA"/>
+            <item value="KHALISHPUR"/>
+            <item value="KHAN JAHAN ALI"/>
+            <item value="KHULNA SADAR"/>
+            <item value="KOYRA"/>
+            <item value="PAIKGACHHA"/>
+            <item value="PHULTALA"/>
+            <item value="RUPSA"/>
+            <item value="SONADANGA"/>
+            <item value="TEROKHADA"/>
+            <item value=""/>
+            <item value="KUSHTIA"/>
+            <item value=""/>
+            <item value="BHERAMARA"/>
+            <item value="DAULATPUR"/>
+            <item value="KHOKSA"/>
+            <item value="KUMARKHALI"/>
+            <item value="KUSHTIA SADAR"/>
+            <item value="MIRPUR"/>
+            <item value=""/>
+            <item value="MAGURA"/>
+            <item value=""/>
+            <item value="MAGURA SADAR"/>
+            <item value="MOHAMMADPUR"/>
+            <item value="SHALIKHA"/>
+            <item value="SREEPUR"/>
+            <item value=""/>
+            <item value="MEHERPUR"/>
+            <item value=""/>
+            <item value="GANGNI"/>
+            <item value="MUJIB NAGAR"/>
+            <item value="MEHERPUR SADAR"/>
+            <item value=""/>
+            <item value="NARAIL"/>
+            <item value=""/>
+            <item value="KALIA"/>
+            <item value="LOHAGARA"/>
+            <item value="NARAIL SADAR"/>
+            <item value=""/>
+            <item value="SATKHIRA"/>
+            <item value=""/>
+            <item value="ASSASUNI"/>
+            <item value="DEBHATA"/>
+            <item value="KALAROA"/>
+            <item value="KALIGANJ"/>
+            <item value="SATKHIRA SADAR"/>
+            <item value="SHYAMNAGAR"/>
+            <item value="TALA"/>
+            <item value=""/>
+            <item value="RAJSHAHI DIVISION"/>
+            <item value=""/>
+            <item value="BOGRA"/>
+            <item value=""/>
+            <item value="ADAMDIGHI"/>
+            <item value="BOGRA SADAR"/>
+            <item value="DHUNAT"/>
+            <item value="DHUPCHANCHIA"/>
+            <item value="GABTALI"/>
+            <item value="KAHALOO"/>
+            <item value="NANDIGRAM"/>
+            <item value="SARIAKANDI"/>
+            <item value="SHAJAHANPUR"/>
+            <item value="SHERPUR"/>
+            <item value="SHIBGANJ"/>
+            <item value="SONATOLA"/>
+            <item value=""/>
+            <item value="JOYPURHAT"/>
+            <item value=""/>
+            <item value="AKKELPUR"/>
+            <item value="JOYPURHAT SADAR"/>
+            <item value="KALAI"/>
+            <item value="KHETLAL"/>
+            <item value="PANCHBIBI"/>
+            <item value=""/>
+            <item value="NAOGAON"/>
+            <item value=""/>
+            <item value="ATRAI"/>
+            <item value="BADALGACHHI"/>
+            <item value="DHAMOIRHAT"/>
+            <item value="MANDA"/>
+            <item value="MAHADEBPUR"/>
+            <item value="NAOGAON SADAR"/>
+            <item value="NIAMATPUR"/>
+            <item value="PATNITALA"/>
+            <item value="PORSHA"/>
+            <item value="RANINAGAR"/>
+            <item value="SAPAHAR"/>
+            <item value=""/>
+            <item value="NATORE"/>
+            <item value=""/>
+            <item value="BAGATIPARA"/>
+            <item value="BARAIGRAM"/>
+            <item value="GURUDASPUR"/>
+            <item value="LALPUR"/>
+            <item value="NATORE SADAR"/>
+            <item value="SINGRA"/>
+            <item value=""/>
+            <item value="CHAPAI NABABGANJ"/>
+            <item value=""/>
+            <item value="BHOLAHAT"/>
+            <item value="GOMASTAPUR"/>
+            <item value="NACHOLE"/>
+            <item value="CHAPAI NABABGANJ SADAR"/>
+            <item value="SHIBGANJ"/>
+            <item value=""/>
+            <item value="PABNA"/>
+            <item value=""/>
+            <item value="ATGHARIA"/>
+            <item value="BERA"/>
+            <item value="BHANGURA"/>
+            <item value="CHATMOHAR"/>
+            <item value="FARIDPUR"/>
+            <item value="ISHWARDI"/>
+            <item value="PABNA SADAR"/>
+            <item value="SANTHIA"/>
+            <item value="SUJANAGAR"/>
+            <item value=""/>
+            <item value="RAJSHAHI"/>
+            <item value=""/>
+            <item value="BAGHA"/>
+            <item value="BAGHMARA"/>
+            <item value="BOALIA"/>
+            <item value="CHARGHAT"/>
+            <item value="DURGAPUR"/>
+            <item value="GODAGARI"/>
+            <item value="MATIHAR"/>
+            <item value="MOHANPUR"/>
+            <item value="PABA"/>
+            <item value="PUTHIA"/>
+            <item value="RAJPARA"/>
+            <item value="SHAH MAKHDUM"/>
+            <item value="TANORE"/>
+            <item value=""/>
+            <item value="SIRAJGANJ"/>
+            <item value=""/>
+            <item value="BELKUCHI"/>
+            <item value="CHAUHALI"/>
+            <item value="KAMARKHANDA"/>
+            <item value="KAZIPUR"/>
+            <item value="ROYGANJ"/>
+            <item value="SHAHJADPUR"/>
+            <item value="SIRAJGANJ SADAR"/>
+            <item value="TARASH"/>
+            <item value="ULLAH PARA"/>
+            <item value=""/>
+            <item value="RANGPUR DIVISION"/>
+            <item value=""/>
+            <item value="DINAJPUR"/>
+            <item value=""/>
+            <item value="BIRAMPUR"/>
+            <item value="BIRGANJ"/>
+            <item value="BIRAL"/>
+            <item value="BOCHAGANJ"/>
+            <item value="CHIRIRBANDAR"/>
+            <item value="FULBARI"/>
+            <item value="GHORAGHAT"/>
+            <item value="HAKIMPUR"/>
+            <item value="KAHAROLE"/>
+            <item value="KHANSAMA"/>
+            <item value="DINAJPUR SADAR"/>
+            <item value="NAWABGANJ"/>
+            <item value="PARBATIPUR"/>
+            <item value=""/>
+            <item value="GAIBANDHA"/>
+            <item value=""/>
+            <item value="FULCHHARI"/>
+            <item value="GAIBANDHA SADAR"/>
+            <item value="GOBINDAGANJ"/>
+            <item value="PALASHBARI"/>
+            <item value="SADULLAPUR"/>
+            <item value="SAGHATA"/>
+            <item value="SUNDARGANJ"/>
+            <item value=""/>
+            <item value="KURIGRAM"/>
+            <item value=""/>
+            <item value="BHURUNGAMARI"/>
+            <item value="CHAR RAJIBPUR"/>
+            <item value="CHILMARI"/>
+            <item value="PHULBARI"/>
+            <item value="KURIGRAM SADAR"/>
+            <item value="NAGESHWARI"/>
+            <item value="RAJARHAT"/>
+            <item value="RAUMARI"/>
+            <item value="ULIPUR"/>
+            <item value=""/>
+            <item value="LALMONIRHAT"/>
+            <item value=""/>
+            <item value="ADITMARI"/>
+            <item value="HATIBANDHA"/>
+            <item value="KALIGANJ"/>
+            <item value="LALMONIRHAT SADAR"/>
+            <item value="PATGRAM"/>
+            <item value=""/>
+            <item value="NILPHAMARI ZILA"/>
+            <item value=""/>
+            <item value="DIMLA UPAZILA"/>
+            <item value="DOMAR UPAZILA"/>
+            <item value="JALDHAKA UPAZILA"/>
+            <item value="KISHOREGANJ UPAZILA"/>
+            <item value="NILPHAMARI SADAR UPAZ"/>
+            <item value="SAIDPUR UPAZILA"/>
+            <item value=""/>
+            <item value="PANCHAGARH"/>
+            <item value=""/>
+            <item value="ATWARI"/>
+            <item value="BODA"/>
+            <item value="DEBIGANJ"/>
+            <item value="PANCHAGARH SADAR"/>
+            <item value="TENTULIA"/>
+            <item value=""/>
+            <item value="RANGPUR"/>
+            <item value=""/>
+            <item value="BADARGANJ"/>
+            <item value="GANGACHARA"/>
+            <item value="KAUNIA"/>
+            <item value="RANGPUR SADAR"/>
+            <item value="MITHA PUKUR"/>
+            <item value="PIRGACHHA"/>
+            <item value="PIRGANJ"/>
+            <item value="TARAGANJ"/>
+            <item value=""/>
+            <item value="THAKURGAON"/>
+            <item value=""/>
+            <item value="BALIADANGI"/>
+            <item value="HARIPUR"/>
+            <item value="PIRGANJ"/>
+            <item value="RANISANKAIL"/>
+            <item value="THAKURGAON SADAR"/>
+            <item value=""/>
+            <item value="SYLHET DIVISION"/>
+            <item value=""/>
+            <item value="HABIGANJ"/>
+            <item value=""/>
+            <item value="AJMIRIGANJ"/>
+            <item value="BAHUBAL"/>
+            <item value="BANIACHONG"/>
+            <item value="CHUNARUGHAT"/>
+            <item value="HABIGANJ SADAR"/>
+            <item value="LAKHAI"/>
+            <item value="MADHABPUR"/>
+            <item value="NABIGANJ"/>
+            <item value=""/>
+            <item value="MAULVIBAZAR"/>
+            <item value=""/>
+            <item value="BARLEKHA"/>
+            <item value="JURI"/>
+            <item value="KAMALGANJ"/>
+            <item value="KULAURA"/>
+            <item value="MAULVIBAZAR SADAR"/>
+            <item value="RAJNAGAR"/>
+            <item value="SREEMANGAL"/>
+            <item value=""/>
+            <item value="SUNAMGANJ"/>
+            <item value=""/>
+            <item value="BISHWAMBARPUR"/>
+            <item value="CHHATAK"/>
+            <item value="DAKSHIN SUNAMGANJ"/>
+            <item value="DERAI"/>
+            <item value="DHARAMPASHA"/>
+            <item value="DOWARABAZAR"/>
+            <item value="JAGANNATHPUR"/>
+            <item value="JAMALGANJ"/>
+            <item value="SULLA"/>
+            <item value="SUNAMGANJ SADAR"/>
+            <item value="TAHIRPUR"/>
+            <item value=""/>
+            <item value="SYLHET"/>
+            <item value=""/>
+            <item value="BALAGANJ"/>
+            <item value="BEANI BAZAR"/>
+            <item value="BISHWANATH"/>
+            <item value="COMPANIGANJ"/>
+            <item value="DAKSHIN SURMA"/>
+            <item value="FENCHUGANJ"/>
+            <item value="GOLAPGANJ"/>
+            <item value="GOWAINGHAT"/>
+            <item value="JAINTIAPUR"/>
+            <item value="KANAIGHAT"/>
+            <item value="SYLHET SADAR"/>
+            <item value="ZAKIGANJ"/>
+          </model>
+        </properties>
+      </component>
+      <component id="79902" class="javax.swing.JComboBox" binding="postcode">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="false"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="POST CODE"/>
+            <item value="BARISAL DIVISION"/>
+            <item value="BARGUNA"/>
+            <item value="Amtali&#9;Amtali&#9;8710"/>
+            <item value="Bamna&#9;Bamna&#9;8730"/>
+            <item value="Barguna Sadar&#9;Barguna Sadar&#9;8700"/>
+            <item value="Barguna Sadar&#9;Nali Bandar&#9;8701"/>
+            <item value="Betagi&#9;Betagi&#9;8740"/>
+            <item value="Betagi&#9;Darul Ulam&#9;8741"/>
+            <item value="Patharghata&#9;Kakchira&#9;8721"/>
+            <item value="Patharghata&#9;Patharghata&#9;8720"/>
+            <item value="BARISAL"/>
+            <item value="Agailzhara&#9;Agailzhara&#9;8240"/>
+            <item value="Agailzhara&#9;Gaila&#9;8241"/>
+            <item value="Agailzhara&#9;Paisarhat&#9;8242"/>
+            <item value="Babuganj&#9;Babuganj&#9;8210"/>
+            <item value="Babuganj&#9;Barishal Cadet&#9;8216"/>
+            <item value="Babuganj&#9;Chandpasha&#9;8212"/>
+            <item value="Babuganj&#9;Madhabpasha&#9;8213"/>
+            <item value="Babuganj&#9;Nizamuddin College8215"/>
+            <item value="Babuganj&#9;Rahamatpur&#9;8211"/>
+            <item value="Babuganj&#9;Thakur Mallik&#9;8214"/>
+            <item value="Barajalia&#9;Barajalia&#9;8260"/>
+            <item value="Barajalia&#9;Osman Manjil&#9;8261"/>
+            <item value="BarishalSadar&#9;Barishal Sadar&#9;8200"/>
+            <item value="BarishalSadar&#9;Chandramohon&#9;8200"/>
+            <item value="BarishalSadar&#9;Bukhainagar&#9;8201"/>
+            <item value="BarishalSadar&#9;Jaguarhat&#9;8206"/>
+            <item value="BarishalSadar&#9;Kashipur&#9;8205"/>
+            <item value="BarishalSadar&#9;Patang&#9;8204"/>
+            <item value="BarishalSadar&#9;Saheberhat&#9;8202"/>
+            <item value="BarishalSadar&#9;Sugandia&#9;8203"/>
+            <item value="Gouranadi&#9;Batajor&#9;8233"/>
+            <item value="Gouranadi&#9;Gouranadi&#9;8230"/>
+            <item value="Gouranadi&#9;Kashemabad&#9;8232"/>
+            <item value="Gouranadi&#9;Tarki Bandar&#9;8231"/>
+            <item value="Mahendiganj&#9;Langutia&#9;8274"/>
+            <item value="Mahendiganj&#9;Laskarpur&#9;8271"/>
+            <item value="Mahendiganj&#9;Mahendiganj&#9;8270"/>
+            <item value="Mahendiganj&#9;Nalgora&#9;8273"/>
+            <item value="Mahendiganj&#9;Ulania&#9;8272"/>
+            <item value="Muladi&#9;Charkalekhan&#9;8252"/>
+            <item value="Muladi&#9;Kazirchar&#9;8251"/>
+            <item value="Muladi&#9;Muladi&#9;8250"/>
+            <item value="Bakerganj&#9;Charamandi&#9;8281"/>
+            <item value="Bakerganj&#9;kalaskati&#9;8284"/>
+            <item value="Bakerganj&#9;Padri Shibpur&#9;8282"/>
+            <item value="Bakerganj&#9;Luxmibardhan&#9;8280"/>
+            <item value="Bakerganj&#9;Shialguni&#9;8283"/>
+            <item value="Uzirpur&#9;Dakuarhat&#9;8223"/>
+            <item value="Uzirpur&#9;Dhamura&#9;8221"/>
+            <item value="Uzirpur&#9;Jugirkanda&#9;8222"/>
+            <item value="Uzirpur&#9;Shikarpur&#9;8224"/>
+            <item value="Uzirpur&#9;Uzirpur&#9;8220"/>
+            <item value="BHOLA"/>
+            <item value="BholaSadar&#9;Bhola Sadar&#9;8300"/>
+            <item value="BholaSadar&#9;Joynagar&#9;8301"/>
+            <item value="Borhanuddin UPO&#9;Borhanuddin UPO&#9;8320"/>
+            <item value="Borhanuddin UPO&#9;Mirzakalu&#9;8321"/>
+            <item value="Charfashion&#9;Charfashion&#9;8340"/>
+            <item value="Charfashion&#9;Dularhat&#9;8341"/>
+            <item value="Charfashion&#9;Keramatganj&#9;8342"/>
+            <item value="Doulatkhan&#9;Doulatkhan&#9;8310"/>
+            <item value="Doulatkhan&#9;Hajipur&#9;8311"/>
+            <item value="Hajirhat&#9;Hajirhat&#9;8360"/>
+            <item value="Hatshoshiganj&#9;Hatshoshiganj&#9;8350"/>
+            <item value="Lalmohan UPO&#9;Daurihat&#9;8331"/>
+            <item value="Lalmohan UPO&#9;Gazaria&#9;8332"/>
+            <item value="Lalmohan UPO&#9;Lalmohan UPO&#9;8330"/>
+            <item value="JHALOKATI"/>
+            <item value="JhalokatiSadar&#9;Baukathi&#9;8402"/>
+            <item value="JhalokatiSadar&#9;Gabha&#9;8403"/>
+            <item value="JhalokatiSadar&#9;Jhalokati Sadar&#9;8400"/>
+            <item value="JhalokatiSadar&#9;Nabagram&#9;8401"/>
+            <item value="JhalokatiSadar&#9;Shekherhat&#9;8404"/>
+            <item value="Kathalia&#9;Amua&#9;8431"/>
+            <item value="Kathalia&#9;Kathalia&#9;8430"/>
+            <item value="Kathalia&#9;Niamatee&#9;8432"/>
+            <item value="Kathalia&#9;Shoulajalia&#9;8433"/>
+            <item value="Nalchhiti&#9;Beerkathi&#9;8421"/>
+            <item value="Nalchhiti&#9;Nalchhiti&#9;8420"/>
+            <item value="Rajapur&#9;Rajapur&#9;8410"/>
+            <item value="PATUAKHALI"/>
+            <item value="Bauphal&#9;Bagabandar&#9;8621"/>
+            <item value="Bauphal&#9;Bauphal&#9;8620"/>
+            <item value="Bauphal&#9;Birpasha&#9;8622"/>
+            <item value="Bauphal&#9;Kalaia&#9;8624"/>
+            <item value="Bauphal&#9;Kalishari&#9;8623"/>
+            <item value="Dashmina&#9;Dashmina&#9;8630"/>
+            <item value="Galachipa&#9;Galachipa&#9;8640"/>
+            <item value="Galachipa&#9;Gazipur Bandar&#9;8641"/>
+            <item value="Khepupara&#9;Khepupara&#9;8650"/>
+            <item value="Khepupara&#9;Mahipur&#9;8651"/>
+            <item value="Patuakhali Sadar&#9;Dumkee&#9;8602"/>
+            <item value="Patuakhali Sadar&#9;Moukaran&#9;8601"/>
+            <item value="Patuakhali Sadar&#9;Patuakhali Sadar8600"/>
+            <item value="Patuakhali Sadar&#9;Rahimabad&#9;8603"/>
+            <item value="Subidkhali&#9;Subidkhali&#9;8610"/>
+            <item value="PIROJPUR"/>
+            <item value="Banaripara&#9;Banaripara&#9;8530"/>
+            <item value="Banaripara&#9;Chakhar&#9;8531"/>
+            <item value="Bhandaria&#9;Bhandaria&#9;8550"/>
+            <item value="Bhandaria&#9;Dhaoa&#9;8552"/>
+            <item value="Bhandaria&#9;Kanudashkathi&#9;8551"/>
+            <item value="kaukhali&#9;Jolagati&#9;8513"/>
+            <item value="kaukhali&#9;Joykul&#9;8512"/>
+            <item value="kaukhali&#9;Kaukhali&#9;8510"/>
+            <item value="kaukhali&#9;Keundia&#9;8511"/>
+            <item value="Mathbaria&#9;Betmor Natun Hat8565"/>
+            <item value="Mathbaria&#9;Gulishakhali&#9;8563"/>
+            <item value="Mathbaria&#9;Halta&#9;8562"/>
+            <item value="Mathbaria&#9;Mathbaria&#9;8560"/>
+            <item value="Mathbaria&#9;Shilarganj&#9;8566"/>
+            <item value="Mathbaria&#9;Tiarkhali&#9;8564"/>
+            <item value="Mathbaria&#9;Tushkhali&#9;8561"/>
+            <item value="Nazirpur&#9;Nazirpur&#9;8540"/>
+            <item value="Nazirpur&#9;Sriramkathi&#9;8541"/>
+            <item value="PirojpurSadar&#9;Hularhat&#9;8501"/>
+            <item value="PirojpurSadar&#9;Parerhat&#9;8502"/>
+            <item value="PirojpurSadar&#9;Pirojpur Sadar&#9;8500"/>
+            <item value="Swarupkathi&#9;Darus Sunnat&#9;8521"/>
+            <item value="Swarupkathi&#9;Jalabari&#9;8523"/>
+            <item value="Swarupkathi&#9;Kaurikhara&#9;8522"/>
+            <item value="Swarupkathi&#9;Swarupkathi&#9;8520"/>
+            <item value="CHITTAGONG DIVISION"/>
+            <item value="BANDARBAN"/>
+            <item value="Alikadam&#9;Alikadam&#9;4650"/>
+            <item value="Sadar&#9;BandarbanSadar&#9;4600"/>
+            <item value="Naikhong&#9;Naikhong&#9;4660"/>
+            <item value="Roanchhari&#9;Roanchhari&#9;4610"/>
+            <item value="Ruma&#9;Ruma&#9;4620"/>
+            <item value="Thanchi&#9;Lama&#9;4641"/>
+            <item value="Thanchi&#9;Thanchi&#9;4630"/>
+            <item value="BRAHMANBARIA"/>
+            <item value="Akhaura&#9;Akhaura&#9;3450"/>
+            <item value="Akhaura&#9;Azampur&#9;3451"/>
+            <item value="Akhaura&#9;Gangasagar&#9;3452"/>
+            <item value="Banchharampur&#9;Banchharampur&#9;3420"/>
+            <item value="BrahamanbariaSadar&#9;Ashuganj&#9;3402"/>
+            <item value="BrahamanbariaSadar&#9;Ashuganj Share&#9;3403"/>
+            <item value="BrahamanbariaSadar&#9;Brahamanbaria Sadar3400"/>
+            <item value="BrahamanbariaSadar&#9;Poun&#9;3404"/>
+            <item value="BrahamanbariaSadar&#9;Talshahar&#9;3401"/>
+            <item value="Kasba&#9;Chandidar&#9;3462"/>
+            <item value="Kasba&#9;Chargachh&#9;3463"/>
+            <item value="Kasba&#9;Gopinathpur&#9;3464"/>
+            <item value="Kasba&#9;Kasba&#9;3460"/>
+            <item value="Kasba&#9;Kuti&#9;3461"/>
+            <item value="Nabinagar&#9;Jibanganj&#9;3419"/>
+            <item value="Nabinagar&#9;Kaitala&#9;3417"/>
+            <item value="Nabinagar&#9;Laubfatehpur&#9;3411"/>
+            <item value="Nabinagar&#9;Nabinagar&#9;3410"/>
+            <item value="Nabinagar&#9;Rasullabad&#9;3412"/>
+            <item value="Nabinagar&#9;Ratanpur&#9;3414"/>
+            <item value="Nabinagar&#9;Salimganj&#9;3418"/>
+            <item value="Nabinagar&#9;Shahapur&#9;3415"/>
+            <item value="Nabinagar&#9;Shamgram&#9;3413"/>
+            <item value="Nasirnagar&#9;Fandauk&#9;3441"/>
+            <item value="Nasirnagar&#9;Nasirnagar&#9;3440"/>
+            <item value="Sarail&#9;Chandura&#9;3432"/>
+            <item value="Sarail&#9;Sarial&#9;3430"/>
+            <item value="Sarail&#9;Shahbajpur&#9;3431"/>
+            <item value="CHANDPUR"/>
+            <item value="ChandpurSadar&#9;Baburhat&#9;3602"/>
+            <item value="ChandpurSadar&#9;Chandpur Sadar&#9;3600"/>
+            <item value="ChandpurSadar&#9;Puranbazar&#9;3601"/>
+            <item value="ChandpurSadar&#9;Sahatali&#9;3603"/>
+            <item value="Faridganj&#9;Chandra&#9;3651"/>
+            <item value="Faridganj&#9;Faridganj&#9;3650"/>
+            <item value="Faridganj&#9;Gridkaliandia&#9;3653"/>
+            <item value="Faridganj&#9;Islampur Shah Isain3655"/>
+            <item value="Faridganj&#9;Rampurbazar&#9;3654"/>
+            <item value="Faridganj&#9;Rupsha&#9;3652"/>
+            <item value="Hajiganj&#9;Bolakhal&#9;3611"/>
+            <item value="Hajiganj&#9;Hajiganj&#9;3610"/>
+            <item value="Hayemchar&#9;Gandamara&#9;3661"/>
+            <item value="Hayemchar&#9;Hayemchar&#9;3660"/>
+            <item value="Kachua&#9;Kachua&#9;3630"/>
+            <item value="Kachua&#9;Pak Shrirampur&#9;3631"/>
+            <item value="Kachua&#9;Rahima Nagar&#9;3632"/>
+            <item value="Kachua&#9;Shachar&#9;3633"/>
+            <item value="Matlobganj&#9;Kalipur&#9;3642"/>
+            <item value="Matlobganj&#9;Matlobganj&#9;3640"/>
+            <item value="Matlobganj&#9;Mohanpur&#9;3641"/>
+            <item value="Shahrasti&#9;Chotoshi&#9;3623"/>
+            <item value="Shahrasti&#9;Islamia Madrasha3624"/>
+            <item value="Shahrasti&#9;Khilabazar&#9;3621"/>
+            <item value="Shahrasti&#9;Pashchim Kherihar Al3622"/>
+            <item value="Shahrasti&#9;UNKILA&#9;3620"/>
+            <item value="CHITTAGONG"/>
+            <item value="Anawara&#9;Anowara&#9;4376"/>
+            <item value="Anawara&#9;Battali&#9;4378"/>
+            <item value="Anawara&#9;Paroikora&#9;4377"/>
+            <item value="Boalkhali&#9;Boalkhali&#9;4366"/>
+            <item value="Boalkhali&#9;Charandwip&#9;4369"/>
+            <item value="Boalkhali&#9;Iqbal Park&#9;4365"/>
+            <item value="Boalkhali&#9;Kadurkhal&#9;4368"/>
+            <item value="Boalkhali&#9;Kanungopara&#9;4363"/>
+            <item value="Boalkhali&#9;Sakpura&#9;4367"/>
+            <item value="Boalkhali&#9;Saroatoli&#9;4364"/>
+            <item value="Sadar&#9;Al Amin Baria Madra4221"/>
+            <item value="Sadar&#9;Amin Jute Mills&#9;4211"/>
+            <item value="Sadar&#9;Anandabazar&#9;4215"/>
+            <item value="Sadar&#9;Bayezid Bostami&#9;4210"/>
+            <item value="Sadar&#9;Chandgaon&#9;4212"/>
+            <item value="Sadar&#9;Chawkbazar&#9;4203"/>
+            <item value="Sadar&#9;Chitt. Cantonment&#9;4220"/>
+            <item value="Sadar&#9;Chitt. Customs Acca&#9;4219"/>
+            <item value="Sadar&#9;Chitt. Politechnic In&#9;4209"/>
+            <item value="Sadar&#9;Chitt. Sailers Colon&#9;4218"/>
+            <item value="Sadar&#9; Airport&#9;4205"/>
+            <item value="Sadar&#9; Bandar&#9;4100"/>
+            <item value="Sadar&#9; GPO&#9;4000"/>
+            <item value="Sadar&#9;Export Processing&#9;4223"/>
+            <item value="Sadar&#9;Firozshah&#9;4207"/>
+            <item value="Sadar&#9;Halishahar&#9;4216"/>
+            <item value="Sadar&#9;Halishshar&#9;4225"/>
+            <item value="Sadar&#9;Jalalabad&#9;4214"/>
+            <item value="Sadar&#9;Jaldia Merine Accade4206"/>
+            <item value="Sadar&#9;Middle Patenga&#9;4222"/>
+            <item value="Sadar&#9;Mohard&#9;4208"/>
+            <item value="Sadar&#9;North Halishahar4226"/>
+            <item value="Sadar&#9;North Katuli&#9;4217"/>
+            <item value="Sadar&#9;Pahartoli&#9;4202"/>
+            <item value="Sadar&#9;Patenga&#9;4204"/>
+            <item value="Sadar&#9;Rampura TSO&#9;4224"/>
+            <item value="Sadar&#9;Wazedia&#9;4213"/>
+            <item value="East Joara&#9;Barma&#9;4383"/>
+            <item value="East Joara&#9;Dohazari&#9;4382"/>
+            <item value="East Joara&#9;East Joara&#9;4380"/>
+            <item value="East Joara&#9;Gachbaria&#9;4381"/>
+            <item value="Fatikchhari&#9;Bhandar Sharif&#9;4352"/>
+            <item value="Fatikchhari&#9;Fatikchhari&#9;4350"/>
+            <item value="Fatikchhari&#9;Harualchhari&#9;4354"/>
+            <item value="Fatikchhari&#9;Najirhat&#9;4353"/>
+            <item value="Fatikchhari&#9;Nanupur&#9;4351"/>
+            <item value="Fatikchhari&#9;Narayanhat&#9;4355"/>
+            <item value="Hathazari&#9;Chitt.University4331"/>
+            <item value="Hathazari&#9;Fatahabad&#9;4335"/>
+            <item value="Hathazari&#9;Gorduara&#9;4332"/>
+            <item value="Hathazari&#9;Hathazari&#9;4330"/>
+            <item value="Hathazari&#9;Katirhat&#9;4333"/>
+            <item value="Hathazari&#9;Madrasa&#9;4339"/>
+            <item value="Hathazari&#9;Mirzapur&#9;4334"/>
+            <item value="Hathazari&#9;Nuralibari&#9;4337"/>
+            <item value="Hathazari&#9;Yunus Nagar&#9;4338"/>
+            <item value="Jaldi&#9;Banigram&#9;4393"/>
+            <item value="Jaldi&#9;Gunagari&#9;4392"/>
+            <item value="Jaldi&#9;Jaldi&#9;4390"/>
+            <item value="Jaldi&#9;Khan Bahadur&#9;4391"/>
+            <item value="Lohagara&#9;Chunti&#9;4398"/>
+            <item value="Lohagara&#9;Lohagara&#9;4396"/>
+            <item value="Lohagara&#9;Padua&#9;4397"/>
+            <item value="Mirsharai&#9;Abutorab&#9;4321"/>
+            <item value="Mirsharai&#9;Azampur&#9;4325"/>
+            <item value="Mirsharai&#9;Bharawazhat&#9;4323"/>
+            <item value="Mirsharai&#9;Darrogahat&#9;4322"/>
+            <item value="Mirsharai&#9;Joarganj&#9;4324"/>
+            <item value="Mirsharai&#9;Korerhat&#9;4327"/>
+            <item value="Mirsharai&#9;Mirsharai&#9;4320"/>
+            <item value="Mirsharai&#9;Mohazanhat&#9;4328"/>
+            <item value="Patiya&#9;Budhpara&#9;4371"/>
+            <item value="Patiya&#9;Patiya Head Office&#9;4370"/>
+            <item value="Rangunia&#9;Dhamair&#9;4361"/>
+            <item value="Rangunia&#9;Rangunia&#9;4360"/>
+            <item value="Rouzan&#9;B.I.T Post Office&#9;4349"/>
+            <item value="Rouzan&#9;Beenajuri&#9;4341"/>
+            <item value="Rouzan&#9;Dewanpur&#9;4347"/>
+            <item value="Rouzan&#9;Fatepur&#9;4345"/>
+            <item value="Rouzan&#9;Gahira&#9;4343"/>
+            <item value="Rouzan&#9;Guzra Noapara&#9;4346"/>
+            <item value="Rouzan&#9;jagannath Hat&#9;4344"/>
+            <item value="Rouzan&#9;Kundeshwari&#9;4342"/>
+            <item value="Rouzan&#9;Mohamuni&#9;4348"/>
+            <item value="Rouzan&#9;Rouzan&#9;4340"/>
+            <item value="Sandwip&#9;Sandwip&#9;4300"/>
+            <item value="Sandwip&#9;Shiberhat&#9;4301"/>
+            <item value="Sandwip&#9;Urirchar&#9;4302"/>
+            <item value="Satkania&#9;Baitul Ijjat&#9;4387"/>
+            <item value="Satkania&#9;Bazalia&#9;4388"/>
+            <item value="Satkania&#9;Satkania&#9;4386"/>
+            <item value="Sitakunda&#9;Barabkunda&#9;4312"/>
+            <item value="Sitakunda&#9;Baroidhala&#9;4311"/>
+            <item value="Sitakunda&#9;Bawashbaria&#9;4313"/>
+            <item value="Sitakunda&#9;Bhatiari&#9;4315"/>
+            <item value="Sitakunda&#9;Fouzdarhat&#9;4316"/>
+            <item value="Sitakunda&#9;Jafrabad&#9;4317"/>
+            <item value="Sitakunda&#9;Kumira&#9;4314"/>
+            <item value="Sitakunda&#9;Sitakunda&#9;4310"/>
+            <item value=""/>
+            <item value="Barura&#9;Barura&#9;3560"/>
+            <item value="Barura&#9;Murdafarganj&#9;3562"/>
+            <item value="Barura&#9;Poyalgachha&#9;3561"/>
+            <item value="Brahmanpara&#9;Brahmanpara&#9;3526"/>
+            <item value="Burichang&#9;Burichang&#9;3520"/>
+            <item value="Burichang&#9;Maynamoti bazar&#9;3521"/>
+            <item value="Chandina&#9;Chandia&#9;3510"/>
+            <item value="Chandina&#9;Madhaiabazar&#9;3511"/>
+            <item value="Chouddagram&#9;Batisa&#9;3551"/>
+            <item value="Chouddagram&#9;Chiora&#9;3552"/>
+            <item value="Chouddagram&#9;Chouddagram&#9;3550"/>
+            <item value="Sadar&#9; Contoment3501"/>
+            <item value="Sadar&#9; Sadar&#9;3500"/>
+            <item value="Sadar&#9;Courtbari&#9;3503"/>
+            <item value="Sadar&#9;Halimanagar&#9;3502"/>
+            <item value="Sadar&#9;Suaganj&#9;3504"/>
+            <item value="Daudkandi&#9;Dashpara&#9;3518"/>
+            <item value="Daudkandi&#9;Daudkandi&#9;3516"/>
+            <item value="Daudkandi&#9;Eliotganj&#9;3519"/>
+            <item value="Daudkandi&#9;Gouripur&#9;3517"/>
+            <item value="Davidhar&#9;Barashalghar&#9;3532"/>
+            <item value="Davidhar&#9;Davidhar&#9;3530"/>
+            <item value="Davidhar&#9;Dhamtee&#9;3533"/>
+            <item value="Davidhar&#9;Gangamandal&#9;3531"/>
+            <item value="Homna&#9;Homna&#9;3546"/>
+            <item value="Laksam&#9;Bipulasar&#9;3572"/>
+            <item value="Laksam&#9;Laksam&#9;3570"/>
+            <item value="Laksam&#9;Lakshamanpur&#9;3571"/>
+            <item value="Langalkot&#9;Chhariabazar&#9;3582"/>
+            <item value="Langalkot&#9;Dhalua&#9;3581"/>
+            <item value="Langalkot&#9;Gunabati&#9;3583"/>
+            <item value="Langalkot&#9;Langalkot&#9;3580"/>
+            <item value="Muradnagar&#9;Bangra&#9;3543"/>
+            <item value="Muradnagar&#9;Companyganj&#9;3542"/>
+            <item value="Muradnagar&#9;Muradnagar&#9;3540"/>
+            <item value="Muradnagar&#9;Pantibazar&#9;3545"/>
+            <item value="Muradnagar&#9;Ramchandarpur&#9;3541"/>
+            <item value="Muradnagar&#9;Sonakanda&#9;3544"/>
+            <item value="COX'S BAZAR"/>
+            <item value="Chiringga&#9;Badarkali&#9;4742"/>
+            <item value="Chiringga&#9;Chiringga&#9;4740"/>
+            <item value="Chiringga&#9;Chiringga S.O&#9;4741"/>
+            <item value="Chiringga&#9;Malumghat&#9;4743"/>
+            <item value="Coxs Bazar Sadar&#9;Coxs Bazar Sadar4700"/>
+            <item value="Coxs Bazar Sadar&#9;Eidga&#9;4702"/>
+            <item value="Coxs Bazar Sadar&#9;Zhilanja4701"/>
+            <item value="Gorakghat&#9;Gorakghat&#9;4710"/>
+            <item value="Kutubdia&#9;Kutubdia&#9;4720"/>
+            <item value="Ramu&#9;Ramu&#9;4730"/>
+            <item value="Teknaf&#9;Hnila&#9;4761"/>
+            <item value="Teknaf&#9;St.Martin&#9;4762"/>
+            <item value="Teknaf&#9;Teknaf&#9;4760"/>
+            <item value="Ukhia&#9;Ukhia&#9;4750"/>
+            <item value="FENI"/>
+            <item value="Chhagalnaia&#9;Chhagalnaia&#9;3910"/>
+            <item value="Chhagalnaia&#9;Daraga Hat&#9;3912"/>
+            <item value="Chhagalnaia&#9;Maharajganj&#9;3911"/>
+            <item value="Chhagalnaia&#9;Puabashimulia&#9;3913"/>
+            <item value="Dagonbhuia&#9;Chhilonia&#9;3922"/>
+            <item value="Dagonbhuia&#9;Dagondhuia&#9;3920"/>
+            <item value="Dagonbhuia&#9;Dudmukha&#9;3921"/>
+            <item value="Dagonbhuia&#9;Rajapur&#9;3923"/>
+            <item value="Sadar&#9;Fazilpur&#9;3901"/>
+            <item value="Sadar&#9; Sadar&#9;3900"/>
+            <item value="Sadar&#9;Laskarhat&#9;3903"/>
+            <item value="Sadar&#9;Sharshadie&#9;3902"/>
+            <item value="Pashurampur&#9;Fulgazi&#9;3942"/>
+            <item value="Pashurampur&#9;Munshirhat&#9;3943"/>
+            <item value="Pashurampur&#9;Pashurampur&#9;3940"/>
+            <item value="Pashurampur&#9;Shuarbazar&#9;3941"/>
+            <item value="Sonagazi&#9;Ahmadpur&#9;3932"/>
+            <item value="Sonagazi&#9;Kazirhat&#9;3933"/>
+            <item value="Sonagazi&#9;Motiganj&#9;3931"/>
+            <item value="Sonagazi&#9;Sonagazi&#9;3930"/>
+            <item value="KHAGRACHHARI"/>
+            <item value="Diginala&#9;Diginala&#9;4420"/>
+            <item value="Sadar&#9; Sadar4400"/>
+            <item value="Laxmichhari&#9;Laxmichhari&#9;4470"/>
+            <item value="Mahalchhari&#9;Mahalchhari&#9;4430"/>
+            <item value="Manikchhari&#9;Manikchhari&#9;4460"/>
+            <item value="Matiranga&#9;Matiranga&#9;4450"/>
+            <item value="Panchhari&#9;Panchhari&#9;4410"/>
+            <item value="Ramghar Head Office&#9;Ramghar Head Office4440"/>
+            <item value="LAKSHIMIPUR"/>
+            <item value="Char Alexgander&#9;Char Alexgander&#9;3730"/>
+            <item value="Char Alexgander&#9;Hajirghat&#9;3731"/>
+            <item value="Char Alexgander&#9;Ramgatirhat&#9;3732"/>
+            <item value="Lakshimpur Sadar&#9;Amani Lakshimpur3709"/>
+            <item value="Lakshimpur Sadar&#9;Bhabaniganj&#9;3702"/>
+            <item value="Lakshimpur Sadar&#9;Chandraganj&#9;3708"/>
+            <item value="Lakshimpur Sadar&#9;Choupalli&#9;3707"/>
+            <item value="Lakshimpur Sadar&#9;Dalal Bazar&#9;3701"/>
+            <item value="Lakshimpur Sadar&#9;Duttapara&#9;3706"/>
+            <item value="Lakshimpur Sadar&#9;Keramatganj&#9;3704"/>
+            <item value="Lakshimpur Sadar&#9;Lakshimpur Sadar&#9;3700"/>
+            <item value="Lakshimpur Sadar&#9;Mandari&#9;3703"/>
+            <item value="Lakshimpur Sadar&#9;Rupchara&#9;3705"/>
+            <item value="Ramganj&#9;Alipur&#9;3721"/>
+            <item value="Ramganj&#9;Dolta&#9;3725"/>
+            <item value="Ramganj&#9;Kanchanpur&#9;3723"/>
+            <item value="Ramganj&#9;Naagmud&#9;3724"/>
+            <item value="Ramganj&#9;Panpara&#9;3722"/>
+            <item value="Ramganj&#9;Ramganj&#9;3720"/>
+            <item value="Raypur&#9;Bhuiyanbari&#9;3714"/>
+            <item value="Raypur&#9;Haydarganj&#9;3713"/>
+            <item value="Raypur&#9;Khaser Hat&#9;3713"/>
+            <item value="Raypur&#9;Nagerdighirpar&#9;3712"/>
+            <item value="Raypur&#9;Rakhallia&#9;3711"/>
+            <item value="Raypur&#9;Raypur&#9;3710"/>
+            <item value="NOAKHALI"/>
+            <item value="Basurhat&#9;Basur Hat&#9;3850"/>
+            <item value="Basurhat&#9;Charhajari&#9;3851"/>
+            <item value="Begumganj&#9;Alaiarpur&#9;3831"/>
+            <item value="Begumganj&#9;Amisha Para&#9;3847"/>
+            <item value="Begumganj&#9;Banglabazar&#9;3822"/>
+            <item value="Begumganj&#9;Bazra&#9;3824"/>
+            <item value="Begumganj&#9;Begumganj&#9;3820"/>
+            <item value="Begumganj&#9;Bhabani Jibanpur&#9;3837"/>
+            <item value="Begumganj&#9;Choumohani&#9;3821"/>
+            <item value="Begumganj&#9;Dauti&#9;3843"/>
+            <item value="Begumganj&#9;Durgapur&#9;3848"/>
+            <item value="Begumganj&#9;Gopalpur&#9;3828"/>
+            <item value="Begumganj&#9;Jamidar Hat&#9;3825"/>
+            <item value="Begumganj&#9;Joyag&#9;3844"/>
+            <item value="Begumganj&#9;Joynarayanpur&#9;3829"/>
+            <item value="Begumganj&#9;Khalafat Bazar&#9;3833"/>
+            <item value="Begumganj&#9;Khalishpur&#9;3842"/>
+            <item value="Begumganj&#9;Maheshganj&#9;3838"/>
+            <item value="Begumganj&#9;Mir Owarishpur&#9;3823"/>
+            <item value="Begumganj&#9;Nadona&#9;3839"/>
+            <item value="Begumganj&#9;Nandiapara&#9;3841"/>
+            <item value="Begumganj&#9;Oachhekpur&#9;3835"/>
+            <item value="Begumganj&#9;Rajganj&#9;3834"/>
+            <item value="Begumganj&#9;Sonaimuri&#9;3827"/>
+            <item value="Begumganj&#9;Tangirpar&#9;3832"/>
+            <item value="Begumganj&#9;Thanar Hat&#9;3845"/>
+            <item value="Chatkhil&#9;Bansa Bazar&#9;3879"/>
+            <item value="Chatkhil&#9;Bodalcourt&#9;3873"/>
+            <item value="Chatkhil&#9;Chatkhil&#9;3870"/>
+            <item value="Chatkhil&#9;Dosh Gharia&#9;3878"/>
+            <item value="Chatkhil&#9;Karihati&#9;3877"/>
+            <item value="Chatkhil&#9;Khilpara&#9;3872"/>
+            <item value="Chatkhil&#9;Palla&#9;3871"/>
+            <item value="Chatkhil&#9;Rezzakpur&#9;3874"/>
+            <item value="Chatkhil&#9;Sahapur&#9;3881"/>
+            <item value="Chatkhil&#9;Sampara&#9;3882"/>
+            <item value="Chatkhil&#9;Shingbahura&#9;3883"/>
+            <item value="Chatkhil&#9;Solla&#9;3875"/>
+            <item value="Hatiya&#9;Afazia&#9;3891"/>
+            <item value="Hatiya&#9;Hatiya&#9;3890"/>
+            <item value="Hatiya&#9;Tamoraddi&#9;3892"/>
+            <item value="Sadar&#9;Chaprashir Hat&#9;3811"/>
+            <item value="Sadar&#9;Char Jabbar&#9;3812"/>
+            <item value="Sadar&#9;Charam Tua&#9;3809"/>
+            <item value="Sadar&#9;Din Monir Hat&#9;3803"/>
+            <item value="Sadar&#9;Kabirhat&#9;3807"/>
+            <item value="Sadar&#9;Khalifar Hat&#9;3808"/>
+            <item value="Sadar&#9;Mriddarhat&#9;3806"/>
+            <item value="Sadar&#9; College&#9;3801"/>
+            <item value="Sadar&#9; Sadar&#9;3800"/>
+            <item value="Sadar&#9;Pak Kishoreganj&#9;3804"/>
+            <item value="Sadar&#9;Sonapur&#9;3802"/>
+            <item value="Senbag&#9;Beezbag&#9;3862"/>
+            <item value="Senbag&#9;Chatarpaia&#9;3864"/>
+            <item value="Senbag&#9;Kallyandi&#9;3861"/>
+            <item value="Senbag&#9;Kankirhat&#9;3863"/>
+            <item value="Senbag&#9;Senbag&#9;3860"/>
+            <item value="Senbag&#9;T.P. Lamua&#9;3865"/>
+            <item value="RANGAMATI"/>
+            <item value="Barakal&#9;Barakal&#9;4570"/>
+            <item value="Bilaichhari&#9;Bilaichhari&#9;4550"/>
+            <item value="Jarachhari&#9;Jarachhari&#9;4560"/>
+            <item value="Kalampati&#9;Betbunia&#9;4511"/>
+            <item value="Kalampati&#9;Kalampati&#9;4510"/>
+            <item value="kaptai&#9;Chandraghona&#9;4531"/>
+            <item value="kaptai&#9;Kaptai&#9;4530"/>
+            <item value="kaptai&#9;Kaptai Nuton Bazar&#9;4533"/>
+            <item value="kaptai&#9;Kaptai Project&#9;4532"/>
+            <item value="Longachh&#9;Longachh&#9;4580"/>
+            <item value="Marishya&#9;Marishya&#9;4590"/>
+            <item value="Naniachhar&#9;Nanichhar&#9;4520"/>
+            <item value="Rajsthali&#9;Rajsthali&#9;4540"/>
+            <item value="Sadar&#9; Sadar&#9;4500"/>
+            <item value="DHAKA DIVISION"/>
+            <item value="DHAKA"/>
+            <item value="Cantonment–TSO&#9;1206"/>
+            <item value="Dhamrai&#9;Kalampur&#9;1350"/>
+            <item value="Dhanmondi&#9;Jigatala TSO&#9;1209"/>
+            <item value="Gulshan&#9;Banani TSO&#9;1213"/>
+            <item value="Gulshan&#9;Badda&#9;1214"/>
+            <item value="Gulshan&#9;Gulshan Model Town&#9;1212"/>
+            <item value="Jatrabari&#9;Dhania TSO&#9;1236"/>
+            <item value="Joypara&#9;Joypara&#9;1331"/>
+            <item value="Joypara&#9;Narisha&#9;1332"/>
+            <item value="Joypara&#9;Palamganj&#9;1331"/>
+            <item value="Keraniganj&#9;Ati&#9;1312"/>
+            <item value="Keraniganj&#9; Jute Mills1311"/>
+            <item value="Keraniganj&#9;Kalatia&#9;1313"/>
+            <item value="Keraniganj&#9;Keraniganj&#9;1310"/>
+            <item value="Khilgaon&#9;KhilgaonTSO&#9;1219"/>
+            <item value="Khilkhet&#9;KhilkhetTSO&#9;1229"/>
+            <item value="Lalbag&#9;Posta TSO&#9;        1211"/>
+            <item value="Mirpur&#9;Mirpur TSO&#9;        1216"/>
+            <item value="Mohammadpur&#9;Mohammadpur Housing1207"/>
+            <item value="Mohammadpur&#9;Sangsad BhabanTSO1225"/>
+            <item value="Motijheel&#9;BangabhabanTSO&#9;1222"/>
+            <item value="Motijheel&#9;DilkushaTSO&#9;1223"/>
+            <item value="Nawabganj&#9;Agla&#9;        1323"/>
+            <item value="Nawabganj&#9;Churain&#9;1325"/>
+            <item value="Nawabganj&#9;Daudpur&#9;1322"/>
+            <item value="Nawabganj&#9;Hasnabad&#9;1321"/>
+            <item value="Nawabganj&#9;Khalpar&#9;1324"/>
+            <item value="Nawabganj&#9;Nawabganj&#9;1320"/>
+            <item value="New market&#9;New Market TSO&#9;1205"/>
+            <item value="Palton&#9; GPO&#9;1000"/>
+            <item value="Ramna&#9;Shantinagr TSO&#9;1217"/>
+            <item value="Sabujbag&#9;Basabo TSO&#9;1214"/>
+            <item value="Savar&#9;Amin Bazar&#9;1348"/>
+            <item value="Savar&#9;Dairy Farm&#9;1341"/>
+            <item value="Savar&#9;EPZ&#9;1349"/>
+            <item value="Savar&#9;Jahangirnagar University1342"/>
+            <item value="Savar&#9;Kashem Cotton Mills&#9;1346"/>
+            <item value="Savar&#9;Rajphulbaria&#9;1347"/>
+            <item value="Savar&#9;Savar&#9;1340"/>
+            <item value="Savar&#9;Savar Canttonment&#9;1344"/>
+            <item value="Savar&#9;Saver P.A.T.C&#9;1343"/>
+            <item value="Savar&#9;Shimulia&#9;1345"/>
+            <item value="Sutrapur&#9; Sadar HO&#9;1100"/>
+            <item value="Sutrapur&#9;Gendaria TSO&#9;1204"/>
+            <item value="Sutrapur&#9;Wari TSO&#9;1203"/>
+            <item value="Tejgaon&#9;Tejgaon TSO&#9;1215"/>
+            <item value="Tejgaon Industrial Area&#9; Politechnic1208"/>
+            <item value="Uttara&#9;Uttara Model TownTSO&#9;1230"/>
+            <item value="FARIDPUR"/>
+            <item value="Alfadanga&#9;Alfadanga&#9;7870"/>
+            <item value="Bhanga&#9;Bhanga&#9;7830"/>
+            <item value="Boalmari&#9;Boalmari&#9;7860"/>
+            <item value="Boalmari&#9;Rupatpat&#9;7861"/>
+            <item value="Charbhadrasan&#9;Charbadrashan&#9;7810"/>
+            <item value="Sadar&#9;Ambikapur&#9;7802"/>
+            <item value="Sadar&#9;Baitulaman Politecni7803"/>
+            <item value="Sadar&#9;sadar&#9;7800"/>
+            <item value="Sadar&#9;Kanaipur&#9;7801"/>
+            <item value="Madukhali&#9;Kamarkali&#9;7851"/>
+            <item value="Madukhali&#9;Madukhali&#9;7850"/>
+            <item value="Nagarkanda&#9;Nagarkanda&#9;7840"/>
+            <item value="Nagarkanda&#9;Talma&#9;7841"/>
+            <item value="Sadarpur&#9;Bishwa jaker Manjil7822"/>
+            <item value="Sadarpur&#9;Hat Krishapur&#9;7821"/>
+            <item value="Sadarpur&#9;Sadarpur&#9;7820"/>
+            <item value="Shriangan&#9;Shriangan&#9;7804"/>
+            <item value="GAZIPUR"/>
+            <item value="Sadar&#9;B.O.F&#9;1703"/>
+            <item value="Sadar&#9;B.R.R&#9;1701"/>
+            <item value="Sadar&#9;Chandna&#9;1702"/>
+            <item value="Sadar&#9; Sadar&#9;1700"/>
+            <item value="Sadar&#9;National University1704"/>
+            <item value="Kaliakaar&#9;Kaliakaar&#9;1750"/>
+            <item value="Kaliakaar&#9;Safipur&#9;1751"/>
+            <item value="Kaliganj&#9;Kaliganj&#9;1720"/>
+            <item value="Kaliganj&#9;Pubail&#9;1721"/>
+            <item value="Kaliganj&#9;Santanpara&#9;1722"/>
+            <item value="Kaliganj&#9;Vaoal Jamalpur&#9;1723"/>
+            <item value="Kapashia&#9;kapashia&#9;1730"/>
+            <item value="Monnunagar&#9;Ershad Nagar&#9;1712"/>
+            <item value="Monnunagar&#9;Monnunagar&#9;1710"/>
+            <item value="Monnunagar&#9;Nishat Nagar&#9;1711"/>
+            <item value="Sreepur&#9;Barmi&#9;1743"/>
+            <item value="Sreepur&#9;Bashamur&#9;1747"/>
+            <item value="Sreepur&#9;Boubi&#9;1748"/>
+            <item value="Sreepur&#9;Kawraid&#9;1745"/>
+            <item value="Sreepur&#9;Satkhamair&#9;1744"/>
+            <item value="Sreepur&#9;Sreepur&#9;1740"/>
+            <item value="Sripur&#9;Tepirbari&#9;1740"/>
+            <item value="Sripur&#9;Tengra&#9;1740"/>
+            <item value="Sripur&#9;Rajendrapur&#9;1741"/>
+            <item value="Sripur&#9;Rajendrapur Canttome&#9;1742"/>
+            <item value="GOPALGANJ"/>
+            <item value="Sadar&#9;Barfa&#9;8102"/>
+            <item value="Sadar&#9;Chandradighalia&#9;8013"/>
+            <item value="Sadar&#9; Sadar&#9;8100"/>
+            <item value="Sadar&#9;Ulpur&#9;8101"/>
+            <item value="Kashiani&#9;Jonapur&#9;8133"/>
+            <item value="Kashiani&#9;Kashiani&#9;8130"/>
+            <item value="Kashiani&#9;Ramdia College&#9;8131"/>
+            <item value="Kashiani&#9;Ratoil&#9;8132"/>
+            <item value="Kotalipara&#9;Kotalipara&#9;8110"/>
+            <item value="Maksudpur&#9;Batkiamari&#9;8141"/>
+            <item value="Maksudpur&#9;Khandarpara&#9;8142"/>
+            <item value="Maksudpur&#9;Maksudpur&#9;8140"/>
+            <item value="Tungipara&#9;Patgati&#9;8121"/>
+            <item value="Tungipara&#9;Tungipara&#9;8120"/>
+            <item value="KISHOREGONJ"/>
+            <item value="Bajitpur&#9;Bajitpur&#9;2336"/>
+            <item value="Bajitpur&#9;Laksmipur&#9;2338"/>
+            <item value="Bajitpur&#9;Sararchar&#9;2337"/>
+            <item value="Bhairob&#9;Bhairab&#9;2350"/>
+            <item value="Hossenpur&#9;Hossenpur&#9;2320"/>
+            <item value="Itna&#9;Itna&#9;2390"/>
+            <item value="Karimganj&#9;Karimganj&#9;2310"/>
+            <item value="Katiadi&#9;Gochhihata&#9;2331"/>
+            <item value="Katiadi&#9;Katiadi&#9;2330"/>
+            <item value="Sadar&#9; S.Mills2301"/>
+            <item value="Sadar&#9; Sadar2300"/>
+            <item value="Sadar&#9;Maizhati&#9;2302"/>
+            <item value="Sadar&#9;Nilganj&#9;2303"/>
+            <item value="Kuliarchar&#9;Chhoysuti&#9;2341"/>
+            <item value="Kuliarchar&#9;Kuliarchar&#9;2340"/>
+            <item value="Mithamoin&#9;Abdullahpur&#9;2371"/>
+            <item value="Mithamoin&#9;MIthamoin&#9;2370"/>
+            <item value="Nikli&#9;Nikli&#9;2360"/>
+            <item value="Ostagram&#9;Ostagram&#9;2380"/>
+            <item value="Pakundia&#9;Pakundia&#9;2326"/>
+            <item value="Tarial&#9;Tarial&#9;2316"/>
+            <item value="MADARIPUR"/>
+            <item value="Barhamganj&#9;Bahadurpur&#9;7932"/>
+            <item value="Barhamganj&#9;Barhamganj&#9;7930"/>
+            <item value="Barhamganj&#9;Nilaksmibandar&#9;7931"/>
+            <item value="Barhamganj&#9;Umedpur&#9;7933"/>
+            <item value="kalkini&#9;Kalkini&#9;7920"/>
+            <item value="kalkini&#9;Sahabrampur&#9;7921"/>
+            <item value="Sadar&#9;Charmugria&#9;7901"/>
+            <item value="Sadar&#9;Habiganj&#9;7903"/>
+            <item value="Sadar&#9;Kulpaddi&#9;7902"/>
+            <item value="Sadar&#9; Sadar&#9;7900"/>
+            <item value="Sadar&#9;Mustafapur&#9;7904"/>
+            <item value="Rajoir&#9;Khalia&#9;7911"/>
+            <item value="Rajoir&#9;Rajoir&#9;7910"/>
+            <item value="MANIKGANJ"/>
+            <item value="Doulatpur&#9;Doulatpur&#9;1860"/>
+            <item value="Gheor&#9;Gheor&#9;1840"/>
+            <item value="Lechhraganj&#9;Jhitka&#9;1831"/>
+            <item value="Lechhraganj&#9;Lechhraganj&#9;1830"/>
+            <item value="Sadar&#9;Barangail&#9;1804"/>
+            <item value="Sadar&#9;Gorpara&#9;1802"/>
+            <item value="Sadar&#9;Mahadebpur&#9;1803"/>
+            <item value="Sadar&#9; Bazar&#9;1801"/>
+            <item value="Sadar&#9; Sadar&#9;1800"/>
+            <item value="Saturia&#9;Baliati&#9;1811"/>
+            <item value="Saturia&#9;Saturia&#9;1810"/>
+            <item value="Shibloya&#9;Aricha&#9;1851"/>
+            <item value="Shibloya&#9;Shibaloy&#9;1850"/>
+            <item value="Shibloya&#9;Tewta&#9;1852"/>
+            <item value="Shibloya&#9;Uthli&#9;1853"/>
+            <item value="Singari&#9;Baira&#9;1821"/>
+            <item value="Singari&#9;joymantop&#9;1822"/>
+            <item value="Singari&#9;Singair&#9;1820"/>
+            <item value="MUNSHIGANJ"/>
+            <item value="Gajaria&#9;Gajaria&#9;1510"/>
+            <item value="Gajaria&#9;Hossendi&#9;1511"/>
+            <item value="Gajaria&#9;Rasulpur&#9;1512"/>
+            <item value="Lohajong&#9;Gouragonj&#9;1334"/>
+            <item value="Lohajong&#9;Gouragonj&#9;1534"/>
+            <item value="Lohajong&#9;Haldia SO&#9;1532"/>
+            <item value="Lohajong&#9;Haridia&#9;1333"/>
+            <item value="Lohajong&#9;Haridia DESO&#9;1533"/>
+            <item value="Lohajong&#9;Korhati&#9;1531"/>
+            <item value="Lohajong&#9;Lohajang&#9;1530"/>
+            <item value="Lohajong&#9;Madini Mandal&#9;1335"/>
+            <item value="Lohajong&#9;Medini Mandal EDSO&#9;1535"/>
+            <item value="Sadar&#9;Kathakhali&#9;1503"/>
+            <item value="Sadar&#9;Mirkadim&#9;1502"/>
+            <item value="Sadar&#9; Sadar1500"/>
+            <item value="Sadar&#9;Rikabibazar&#9;1501"/>
+            <item value="Sirajdikhan&#9;Ichapur&#9;1542"/>
+            <item value="Sirajdikhan&#9;Kola&#9;1541"/>
+            <item value="Sirajdikhan&#9;Malkha Nagar&#9;1543"/>
+            <item value="Sirajdikhan&#9;Shekher Nagar&#9;1544"/>
+            <item value="Sirajdikhan&#9;Sirajdikhan&#9;1540"/>
+            <item value="Sreenagar&#9;Baghra&#9;1557"/>
+            <item value="Sreenagar&#9;Rarikhal&#9;1551"/>
+            <item value="Sreenagar&#9;Bhaggyakul&#9;1558"/>
+            <item value="Sreenagar&#9;Hashara&#9;1553"/>
+            <item value="Sreenagar&#9;Kolapara&#9;1554"/>
+            <item value="Sreenagar&#9;Kumarbhog&#9;1555"/>
+            <item value="Sreenagar&#9;Maijpara&#9;1552"/>
+            <item value="Sreenagar&#9;Sreenagar&#9;1550"/>
+            <item value="Sreenagar&#9;Vaggyakul SO&#9;1556"/>
+            <item value="Tangibari&#9;Bajrajugini&#9;1523"/>
+            <item value="Tangibari&#9;Baligao&#9;1522"/>
+            <item value="Tangibari&#9;Betkahat&#9;1521"/>
+            <item value="Tangibari&#9;Dighirpar&#9;1525"/>
+            <item value="Tangibari&#9;Hasail&#9;1524"/>
+            <item value="Tangibari&#9;Pura&#9;1527"/>
+            <item value="Tangibari&#9;Pura EDSO&#9;1526"/>
+            <item value="Tangibari&#9;Tangibari&#9;1520"/>
+            <item value="NARAYANGANJ"/>
+            <item value="Araihazar&#9;Araihazar&#9;1450"/>
+            <item value="Araihazar&#9;Gopaldi&#9;1451"/>
+            <item value="Baidder Bazar&#9;Baidder Bazar&#9;1440"/>
+            <item value="Baidder Bazar&#9;Bara Nagar&#9;1441"/>
+            <item value="Baidder Bazar&#9;Barodi&#9;1442"/>
+            <item value="Bandar&#9;Bandar&#9;1410"/>
+            <item value="Bandar&#9;BIDS&#9;1413"/>
+            <item value="Bandar&#9;D.C Mills&#9;1411"/>
+            <item value="Bandar&#9;Madanganj&#9;1414"/>
+            <item value="Bandar&#9;Nabiganj&#9;1412"/>
+            <item value="Fatullah&#9;Fatulla Bazar&#9;1421"/>
+            <item value="Fatullah&#9;Fatullah&#9;1420"/>
+            <item value="Sadar&#9; Sadar1400"/>
+            <item value="Rupganj&#9;Bhulta&#9;1462"/>
+            <item value="Rupganj&#9;Kanchan&#9;1461"/>
+            <item value="Rupganj&#9;Murapara&#9;1464"/>
+            <item value="Rupganj&#9;Nagri&#9;1463"/>
+            <item value="Rupganj&#9;Rupganj&#9;1460"/>
+            <item value="Siddirganj&#9;Adamjeenagar&#9;1431"/>
+            <item value="Siddirganj&#9;LN Mills&#9;1432"/>
+            <item value="Siddirganj&#9;Siddirganj&#9;1430"/>
+            <item value="NARSINGDI"/>
+            <item value="Belabo&#9;Belabo&#9;1640"/>
+            <item value="Monohordi&#9;Hatirdia&#9;1651"/>
+            <item value="Monohordi&#9;Katabaria&#9;1652"/>
+            <item value="Monohordi&#9;Monohordi&#9;1650"/>
+            <item value="Sadar&#9;Karimpur&#9;1605"/>
+            <item value="Sadar&#9;Madhabdi&#9;1604"/>
+            <item value="Sadar&#9; College1602"/>
+            <item value="Sadar&#9; Sadar&#9;1600"/>
+            <item value="Sadar&#9;Panchdona&#9;1603"/>
+            <item value="Sadar&#9;UMC Jute Mills&#9;1601"/>
+            <item value="Palash&#9;Char Sindhur&#9;1612"/>
+            <item value="Palash&#9;Ghorashal&#9;1613"/>
+            <item value="Palash&#9;Sarkarkhana&#9;1611"/>
+            <item value="Palash&#9;Palash&#9;1610"/>
+            <item value="Raypura&#9;Bazar Hasnabad&#9;1631"/>
+            <item value="Raypura&#9;Radhaganj bazar&#9;1632"/>
+            <item value="Raypura&#9;Raypura&#9;1630"/>
+            <item value="Shibpur&#9;Shibpur&#9;1620"/>
+            <item value="RAJBARI"/>
+            <item value="Baliakandi&#9;Baliakandi&#9;7730"/>
+            <item value="Baliakandi&#9;Nalia&#9;7731"/>
+            <item value="Pangsha&#9;Mrigibazar&#9;7723"/>
+            <item value="Pangsha&#9;Pangsha&#9;7720"/>
+            <item value="Pangsha&#9;Ramkol&#9;7721"/>
+            <item value="Pangsha&#9;Ratandia&#9;7722"/>
+            <item value="Sadar&#9;Goalanda&#9;7710"/>
+            <item value="Sadar&#9;Khankhanapur&#9;7711"/>
+            <item value="Sadar&#9; Sadar&#9;7700"/>
+            <item value="SHARIATPUR"/>
+            <item value="Bhedorganj&#9;Bhedorganj&#9;8030"/>
+            <item value="Damudhya&#9;Damudhya&#9;8040"/>
+            <item value="Gosairhat&#9;Gosairhat&#9;8050"/>
+            <item value="Jajira&#9;Jajira&#9;8010"/>
+            <item value="Naria&#9;Bhozeshwar&#9;8021"/>
+            <item value="Naria&#9;Gharisar&#9;8022"/>
+            <item value="Naria&#9;Kartikpur&#9;8024"/>
+            <item value="Naria&#9;Naria&#9;8020"/>
+            <item value="Naria&#9;Upshi&#9;8023"/>
+            <item value="Sadar&#9;Angaria&#9;8001"/>
+            <item value="Sadar&#9;Chikandi8002"/>
+            <item value="Sadar&#9; Sadar8000"/>
+            <item value="TANGAIL"/>
+            <item value="Basail&#9;Basail&#9;1920"/>
+            <item value="Bhuapur&#9;Bhuapur&#9;1960"/>
+            <item value="Delduar&#9;Delduar&#9;1910"/>
+            <item value="Delduar&#9;Elasin&#9;1913"/>
+            <item value="Delduar&#9;Hinga Nagar&#9;1914"/>
+            <item value="Delduar&#9;Jangalia&#9;1911"/>
+            <item value="Delduar&#9;Lowhati&#9;1915"/>
+            <item value="Delduar&#9;Patharail&#9;1912"/>
+            <item value="Ghatail&#9;D. Pakutia&#9;1982"/>
+            <item value="Ghatail&#9;Dhalapara&#9;1983"/>
+            <item value="Ghatail&#9;Ghatial&#9;1980"/>
+            <item value="Ghatail&#9;Lohani&#9;1984"/>
+            <item value="Ghatail&#9;Zahidganj&#9;1981"/>
+            <item value="Gopalpur&#9;Gopalpur&#9;1990"/>
+            <item value="Gopalpur&#9;Hemnagar&#9;1992"/>
+            <item value="Gopalpur&#9;Jhowail&#9;1991"/>
+            <item value="Gopalpur&#9;Chatutia&#9;1991"/>
+            <item value="Kalihati&#9;Ballabazar&#9;1973"/>
+            <item value="Kalihati&#9;Elinga&#9;1974"/>
+            <item value="Kalihati&#9;Kalihati&#9;1970"/>
+            <item value="Kalihati&#9;Nagarbari&#9;1977"/>
+            <item value="Kalihati&#9;Nagarbari SO&#9;1976"/>
+            <item value="Kalihati&#9;Nagbari&#9;1972"/>
+            <item value="Kalihati&#9;Palisha&#9;1975"/>
+            <item value="Kalihati&#9;Rajafair&#9;1971"/>
+            <item value="Kashkaolia&#9;Kashkawlia&#9;1930"/>
+            <item value="Madhupur&#9;Dhobari&#9;1997"/>
+            <item value="Madhupur&#9;Madhupur&#9;1996"/>
+            <item value="Mirzapur&#9;Gorai&#9;1941"/>
+            <item value="Mirzapur&#9;Jarmuki&#9;1944"/>
+            <item value="Mirzapur&#9;M.C. College&#9;1942"/>
+            <item value="Mirzapur&#9;Mirzapur&#9;1940"/>
+            <item value="Mirzapur&#9;Mohera&#9;1945"/>
+            <item value="Mirzapur&#9;Warri paikpara&#9;1943"/>
+            <item value="Nagarpur&#9;Dhuburia&#9;1937"/>
+            <item value="Nagarpur&#9;Nagarpur&#9;1936"/>
+            <item value="Nagarpur&#9;Salimabad&#9;1938"/>
+            <item value="Sakhipur&#9;Kochua&#9;1951"/>
+            <item value="Sakhipur&#9;Sakhipur&#9;1950"/>
+            <item value="Sadar&#9;Kagmari&#9;1901"/>
+            <item value="Sadar&#9;Korotia&#9;1903"/>
+            <item value="Sadar&#9;Purabari&#9;1904"/>
+            <item value="Sadar&#9;Santosh&#9;1902"/>
+            <item value="Sadar&#9; Sadar&#9;1900"/>
+            <item value=""/>
+            <item value="MYMENSINGH DIVISITION"/>
+            <item value=""/>
+            <item value="JAMALPUR"/>
+            <item value="Dewangonj&#9;Dewangonj&#9;2030"/>
+            <item value="Dewangonj&#9;Dewangonj S. Mills2031"/>
+            <item value="Islampur&#9;Durmoot&#9;2021"/>
+            <item value="Islampur&#9;Gilabari&#9;2022"/>
+            <item value="Islampur&#9;Islampur&#9;2020"/>
+            <item value="2000"/>
+            <item value="Nandina&#9;2001"/>
+            <item value="Narundi&#9;2002"/>
+            <item value="Malandah&#9;&#9;2011"/>
+            <item value="Malandah&#9;Mahmudpur&#9;2013"/>
+            <item value="Malandah&#9;Malancha&#9;2012"/>
+            <item value="Malandah&#9;Malandah&#9;2010"/>
+            <item value="Madarganj&#9;Balijhuri&#9;2041"/>
+            <item value="Madarganj&#9;Madarganj&#9;2040"/>
+            <item value="Sharishabari&#9;Bausee&#9;2052"/>
+            <item value="Madarganj&#9;Adarvita&#9;2051"/>
+            <item value="Sharishabari&#9;Jagannath Ghat&#9;2053"/>
+            <item value="Sharishabari&#9;Jamuna Sar Karkhana2055"/>
+            <item value="Sharishabari&#9;Pingna&#9;2054"/>
+            <item value="Sharishabari&#9;Sharishabari&#9;2050"/>
+            <item value="MYMENSINGH"/>
+            <item value="Bhaluka&#9;Bhaluka&#9;2240"/>
+            <item value="Fulbaria&#9;Fulbaria&#9;2216"/>
+            <item value="Gaforgaon&#9;Dobasia&#9;2234"/>
+            <item value="Gaforgaon&#9;Gaforgaon&#9;2230"/>
+            <item value="Gaforgaon&#9;Kandipara&#9;2233"/>
+            <item value="Gaforgaon&#9;Shibganj&#9;2231"/>
+            <item value="Gaforgaon&#9;Usti&#9;2232"/>
+            <item value="Gouripur&#9;Gouripur&#9;2270"/>
+            <item value="Gouripur&#9;Ramgopalpur&#9;2271"/>
+            <item value="Haluaghat&#9;Dhara&#9;2261"/>
+            <item value="Haluaghat&#9;Haluaghat&#9;2260"/>
+            <item value="Haluaghat&#9;Munshirhat&#9;2262"/>
+            <item value="Isshwargonj&#9;Atharabari&#9;2282"/>
+            <item value="Isshwargonj&#9;Isshwargonj&#9;2280"/>
+            <item value="Isshwargonj&#9;Sohagi&#9;2281"/>
+            <item value="Muktagachha&#9;Muktagachha&#9;2210"/>
+            <item value="Sadar&#9;Agriculture Universi2202"/>
+            <item value="Sadar&#9;Biddyaganj&#9;2204"/>
+            <item value="Sadar&#9;Kawatkhali&#9;2201"/>
+            <item value="Sadar&#9; Sadar2200"/>
+            <item value="Sadar&#9;Pearpur&#9;2205"/>
+            <item value="Sadar&#9;Shombhuganj&#9;2203"/>
+            <item value="Nandail&#9;Gangail&#9;2291"/>
+            <item value="Nandail&#9;Nandail&#9;2290"/>
+            <item value="Phulpur&#9;Beltia&#9;2251"/>
+            <item value="Phulpur&#9;Phulpur&#9;2250"/>
+            <item value="Phulpur&#9;Tarakanda&#9;2252"/>
+            <item value="Trishal&#9;Ahmadbad&#9;2221"/>
+            <item value="Trishal&#9;Dhala&#9;2223"/>
+            <item value="Trishal&#9;Ram Amritaganj&#9;2222"/>
+            <item value="Trishal&#9;Trishal&#9;2220"/>
+            <item value="NETRAKONA"/>
+            <item value="Susung Durgapur&#9;Susnng Durgapur&#9;2420"/>
+            <item value="Atpara&#9;Atpara&#9;2470"/>
+            <item value="Barhatta&#9;Barhatta&#9;2440"/>
+            <item value="Dharmapasha&#9;Dharampasha&#9;2450"/>
+            <item value="Dhobaura&#9;Dhobaura&#9;2416"/>
+            <item value="Dhobaura&#9;Sakoai&#9;2417"/>
+            <item value="Kalmakanda&#9;Kalmakanda&#9;2430"/>
+            <item value="Kendua&#9;Kendua&#9;2480"/>
+            <item value="Khaliajuri&#9;Khaliajhri&#9;2460"/>
+            <item value="Khaliajuri&#9;Shaldigha&#9;2462"/>
+            <item value="Madan&#9;Madan&#9;2490"/>
+            <item value="Moddhynagar&#9;Moddoynagar&#9;2456"/>
+            <item value="Mohanganj&#9;Mohanganj&#9;2446"/>
+            <item value="Sadar&#9;Baikherhati&#9;2401"/>
+            <item value="Sadar&#9; Sadar&#9;2400"/>
+            <item value="Purbadhola&#9;Jaria Jhanjhail&#9;2412"/>
+            <item value="Purbadhola&#9;Purbadhola&#9;2410"/>
+            <item value="Purbadhola&#9;Shamgonj&#9;2411"/>
+            <item value="SHERPUR"/>
+            <item value="Bakshigonj&#9;Bakshigonj&#9;2140"/>
+            <item value="Jhinaigati&#9;Jhinaigati&#9;2120"/>
+            <item value="Nakla&#9;     Gonopaddi&#9;   2151"/>
+            <item value="Nakla  &#9;Nakla&#9;2150"/>
+            <item value="Nalitabari   &#9;Hatibandha&#9;2111"/>
+            <item value="Nalitabari&#9;Nalitabari&#9;2110"/>
+            <item value="Shadar&#9;Shadar&#9;                             2100"/>
+            <item value="Shribardi&#9;Shribardi             2099"/>
+            <item value=""/>
+            <item value="KHULNA DIVISION"/>
+            <item value=""/>
+            <item value="BAGERHAT"/>
+            <item value="Sadar&#9; Sadar&#9;9300"/>
+            <item value="Sadar&#9;P.C College&#9;9301"/>
+            <item value="Sadar&#9;Rangdia&#9;9302"/>
+            <item value="Chalna Ankorage&#9;Chalna Ankorage&#9;9350"/>
+            <item value="Chalna Ankorage&#9;Mongla Port&#9;9351"/>
+            <item value="Chitalmari&#9;Barabaria&#9;9361"/>
+            <item value="Chitalmari&#9;Chitalmari&#9;9360"/>
+            <item value="Fakirhat&#9;Bhanganpar Bazar9372"/>
+            <item value="Fakirhat&#9;Fakirhat&#9;9370"/>
+            <item value="Fakirhat&#9;Mansa&#9;9371"/>
+            <item value="Kachua UPO&#9;Kachua&#9;9310"/>
+            <item value="Kachua UPO&#9;Sonarkola&#9;9311"/>
+            <item value="Mollahat&#9;Charkulia&#9;9383"/>
+            <item value="Mollahat&#9;Dariala&#9;9382"/>
+            <item value="Mollahat&#9;Kahalpur&#9;9381"/>
+            <item value="Mollahat&#9;Mollahat&#9;9380"/>
+            <item value="Mollahat&#9;Nagarkandi&#9;9384"/>
+            <item value="Mollahat&#9;Pak Gangni&#9;9385"/>
+            <item value="Morelganj&#9;Morelganj&#9;9320"/>
+            <item value="Morelganj&#9;Sannasi Bazar&#9;9321"/>
+            <item value="Morelganj&#9;Telisatee&#9;9322"/>
+            <item value="Rampal&#9;Foylahat&#9;9341"/>
+            <item value="Rampal&#9;Gourambha&#9;9343"/>
+            <item value="Rampal&#9;Rampal&#9;9340"/>
+            <item value="Rampal&#9;Sonatunia&#9;9342"/>
+            <item value="Rayenda&#9;Rayenda&#9;9330"/>
+            <item value="CHUADANGA"/>
+            <item value="Alamdanga&#9;Alamdanga7210"/>
+            <item value="Alamdanga&#9;Hardi&#9;7211"/>
+            <item value="Sadar&#9; Sadar&#9;7200"/>
+            <item value="Sadar&#9;7201"/>
+            <item value="Damurhuda&#9;Andulbaria7222"/>
+            <item value="Damurhuda&#9;Damurhuda7220"/>
+            <item value="Damurhuda&#9;Darshana7221"/>
+            <item value="Doulatganj&#9;Doulatganj7230"/>
+            <item value="JESSORE"/>
+            <item value="Bagharpara&#9;Bagharpara&#9;7470"/>
+            <item value="Bagharpara&#9;Gouranagar&#9;7471"/>
+            <item value="Chaugachha&#9;Chougachha&#9;7410"/>
+            <item value="Sadar&#9;Basundia&#9;7406"/>
+            <item value="Sadar&#9;Chanchra&#9;7402"/>
+            <item value="Sadar&#9;Churamankathi&#9;7407"/>
+            <item value="Sadar&#9; Airbach&#9;7404"/>
+            <item value="Sadar&#9; canttonment7403"/>
+            <item value="Sadar&#9; Sadar&#9;7400"/>
+            <item value="Sadar&#9; UpaShahar7401"/>
+            <item value="Sadar&#9;Rupdia&#9;7405"/>
+            <item value="Jhikargachha&#9;Jhikargachha7420"/>
+            <item value="Keshabpur&#9;Keshobpur7450"/>
+            <item value="Monirampur&#9;Monirampur7440"/>
+            <item value="Noapara&#9;Bhugilhat&#9;7462"/>
+            <item value="Noapara&#9;Noapara&#9;7460"/>
+            <item value="Noapara&#9;Rajghat&#9;7461"/>
+            <item value="Sarsa&#9;Bag Achra&#9;7433"/>
+            <item value="Sarsa&#9;Benapole&#9;7431"/>
+            <item value="Sarsa&#9;Jadabpur&#9;7432"/>
+            <item value="Sarsa&#9;Sarsa&#9;7430"/>
+            <item value="JHENAIDAH"/>
+            <item value="Harinakundu&#9;Harinakundu&#9;7310"/>
+            <item value="Sadar&#9; Cadet College&#9;7301"/>
+            <item value="Sadar&#9; Sadar&#9;7300"/>
+            <item value="Kotchandpur&#9;Kotchandpur7330"/>
+            <item value="Maheshpur&#9;Maheshpur7340"/>
+            <item value="Naldanga&#9;Hatbar Bazar7351"/>
+            <item value="Naldanga&#9;Naldanga7350"/>
+            <item value="Shailakupa&#9;Kumiradaha7321"/>
+            <item value="Shailakupa&#9;Shailakupa7320"/>
+            <item value="KHULNA"/>
+            <item value="Alaipur&#9;Alaipur&#9;9240"/>
+            <item value="Alaipur&#9;Belphulia&#9;9242"/>
+            <item value="Alaipur&#9;Rupsha&#9;9241"/>
+            <item value="Batiaghat&#9;Batiaghat9260"/>
+            <item value="Batiaghat&#9;Surkalee9261"/>
+            <item value="Chalna Bazar&#9;Bajua&#9;9272"/>
+            <item value="Chalna Bazar&#9;Chalna Bazar9270"/>
+            <item value="Chalna Bazar&#9;Dakup&#9;9271"/>
+            <item value="Chalna Bazar&#9;Nalian&#9;9273"/>
+            <item value="Digalia&#9;Chandni Mahal&#9;9221"/>
+            <item value="Digalia&#9;Digalia&#9;9220"/>
+            <item value="Digalia&#9;Gazirhat&#9;9224"/>
+            <item value="Digalia&#9;Ghoshghati&#9;9223"/>
+            <item value="Digalia&#9;Senhati&#9;9222"/>
+            <item value="Sadar&#9;Atra Shilpa Area9207"/>
+            <item value="Sadar&#9;BIT &#9;9203"/>
+            <item value="Sadar&#9;Doulatpur&#9;9202"/>
+            <item value="Sadar&#9;Jahanabad Canttonmen9205"/>
+            <item value="Sadar&#9;Khula Sadar&#9;9100"/>
+            <item value="Sadar&#9; G.P.O&#9;9000"/>
+            <item value="Sadar&#9; Shipyard&#9;9201"/>
+            <item value="Sadar&#9; University9208"/>
+            <item value="Sadar&#9;Siramani&#9;9204"/>
+            <item value="Sadar&#9;Sonali Jute Mills9206"/>
+            <item value="Koyra&#9;Amadee&#9;9291"/>
+            <item value="Koyra&#9;Koyra&#9;9290"/>
+            <item value="Paikgachha&#9;Chandkhali&#9;9284"/>
+            <item value="Paikgachha&#9;Garaikhali&#9;9285"/>
+            <item value="Paikgachha&#9;Godaipur&#9;9281"/>
+            <item value="Paikgachha&#9;Kapilmoni&#9;9282"/>
+            <item value="Paikgachha&#9;Katipara&#9;9283"/>
+            <item value="Paikgachha&#9;Paikgachha&#9;9280"/>
+            <item value="Phultala&#9;Phultala&#9;9210"/>
+            <item value="Sajiara&#9;Chuknagar&#9;9252"/>
+            <item value="Sajiara&#9;Ghonabanda&#9;9251"/>
+            <item value="Sajiara&#9;Sajiara&#9;9250"/>
+            <item value="Sajiara&#9;Shahapur&#9;9253"/>
+            <item value="Terakhada&#9;Pak Barasat&#9;9231"/>
+            <item value="Terakhada&#9;Terakhada&#9;9230"/>
+            <item value="KUSHTIA"/>
+            <item value="Bheramara&#9;Allardarga&#9;7042"/>
+            <item value="Bheramara&#9;Bheramara&#9;7040"/>
+            <item value="Bheramara&#9;Ganges Bheramara7041"/>
+            <item value="Janipur&#9;Janipur&#9;7020"/>
+            <item value="Janipur&#9;Khoksa&#9;7021"/>
+            <item value="Kumarkhali&#9;Kumarkhali&#9;7010"/>
+            <item value="Kumarkhali&#9;Panti&#9;7011"/>
+            <item value="Sadar&#9;Islami University7003"/>
+            <item value="Sadar&#9;Jagati&#9;7002"/>
+            <item value="Sadar&#9; Mohini&#9;7001"/>
+            <item value="Sadar&#9; Sadar&#9;7000"/>
+            <item value="Mirpur&#9;Amla Sadarpur&#9;7032"/>
+            <item value="Mirpur&#9;Mirpur&#9;7030"/>
+            <item value="Mirpur&#9;Poradaha&#9;7031"/>
+            <item value="Rafayetpur&#9;Khasmathurapur&#9;7052"/>
+            <item value="Rafayetpur&#9;Rafayetpur&#9;7050"/>
+            <item value="Rafayetpur&#9;Taragunia&#9;7051"/>
+            <item value="MAGURA"/>
+            <item value="Arpara&#9;Arpara&#9;7620"/>
+            <item value="Sadar&#9; Sadar&#9;7600"/>
+            <item value="Mohammadpur&#9;Binodpur&#9;7631"/>
+            <item value="Mohammadpur&#9;Mohammadpur&#9;7630"/>
+            <item value="Mohammadpur&#9;Nahata&#9;7632"/>
+            <item value="Shripur&#9;Langalbadh&#9;7611"/>
+            <item value="Shripur&#9;Nachol&#9;7612"/>
+            <item value="Shripur&#9;Shripur&#9;7610"/>
+            <item value="MEHERPUR"/>
+            <item value="Meherpur&#9;Gangni&#9;Gangni&#9;7110"/>
+            <item value="Meherpur&#9;Meherpur Sadar&#9;Amjhupi&#9;7101"/>
+            <item value="Meherpur&#9;Meherpur Sadar&#9;Amjhupi&#9;7152"/>
+            <item value="Meherpur&#9;Meherpur Sadar&#9;Meherpur Sadar&#9;7100"/>
+            <item value="Meherpur&#9;Meherpur Sadar&#9;Mujib Nagar Complex7102"/>
+            <item value="NARAIL"/>
+            <item value="Narail&#9;Kalia&#9;Kalia&#9;7520"/>
+            <item value="Narail&#9;Laxmipasha&#9;Baradia&#9;7514"/>
+            <item value="Narail&#9;Laxmipasha&#9;Itna&#9;7512"/>
+            <item value="Narail&#9;Laxmipasha&#9;Laxmipasha&#9;7510"/>
+            <item value="Narail&#9;Laxmipasha&#9;Lohagora&#9;7511"/>
+            <item value="Narail&#9;Laxmipasha&#9;Naldi&#9;7513"/>
+            <item value="Narail&#9;Mohajan&#9;Mohajan&#9;7521"/>
+            <item value="Narail&#9;Narail Sadar&#9;Narail Sadar&#9;7500"/>
+            <item value="Narail&#9;Narail Sadar&#9;Ratanganj&#9;7501"/>
+            <item value="SATKHIRA"/>
+            <item value="Satkhira&#9;Ashashuni&#9;Ashashuni9460"/>
+            <item value="Satkhira&#9;Ashashuni&#9;Baradal&#9;9461"/>
+            <item value="Satkhira&#9;Debbhata&#9;Debbhata9430"/>
+            <item value="Satkhira&#9;Debbhata&#9;Gurugram9431"/>
+            <item value="Satkhira&#9;kalaroa&#9;Chandanpur&#9;9415"/>
+            <item value="Satkhira&#9;kalaroa&#9;Hamidpur&#9;9413"/>
+            <item value="Satkhira&#9;kalaroa&#9;Jhaudanga&#9;9412"/>
+            <item value="Satkhira&#9;kalaroa&#9;kalaroa&#9;9410"/>
+            <item value="Satkhira&#9;kalaroa&#9;Khordo&#9;9414"/>
+            <item value="Satkhira&#9;kalaroa&#9;Murarikati&#9;9410"/>
+            <item value="Satkhira&#9;Kaliganj UPO&#9;Kaliganj UPO&#9;9440"/>
+            <item value="Satkhira&#9;Kaliganj UPO&#9;Nalta Mubaroknagar9441"/>
+            <item value="Satkhira&#9;Kaliganj UPO&#9;Ratanpur&#9;9442"/>
+            <item value="Satkhira&#9;Nakipur&#9;Buri Goalini&#9;9453"/>
+            <item value="Satkhira&#9;Nakipur&#9;Gabura&#9;9454"/>
+            <item value="Satkhira&#9;Nakipur&#9;Habinagar&#9;9455"/>
+            <item value="Satkhira&#9;Nakipur&#9;Nakipur&#9;9450"/>
+            <item value="Satkhira&#9;Nakipur&#9;Naobeki&#9;9452"/>
+            <item value="Satkhira&#9;Nakipur&#9;Noornagar&#9;9451"/>
+            <item value="Satkhira&#9;Satkhira Sadar&#9;Budhhat&#9;9403"/>
+            <item value="Satkhira&#9;Satkhira Sadar&#9;Gunakar kati&#9;9402"/>
+            <item value="Satkhira&#9;Satkhira Sadar&#9;Satkhira Islamia Acc&#9;9401"/>
+            <item value="Satkhira&#9;Satkhira Sadar&#9;Satkhira Sadar&#9;9400"/>
+            <item value="Satkhira&#9;Taala&#9;Patkelghata&#9;9421"/>
+            <item value="Satkhira&#9;Taala&#9;Taala&#9;9420"/>
+            <item value=""/>
+            <item value="RAJSHAHI DIVISION"/>
+            <item value=""/>
+            <item value="BOGRA"/>
+            <item value="Adamdighi&#9;Adamdighi&#9;5890"/>
+            <item value="Adamdighi&#9;Nasharatpur&#9;5892"/>
+            <item value="Adamdighi&#9;Santahar&#9;5891"/>
+            <item value="Sadar&#9; Canttonment&#9;5801"/>
+            <item value="Sadar&#9; Sadar&#9;5800"/>
+            <item value="Dhunat&#9;Dhunat&#9;5850"/>
+            <item value="Dhunat&#9;Gosaibari&#9;5851"/>
+            <item value="Dupchanchia&#9;Dupchanchia&#9;5880"/>
+            <item value="Dupchachia&#9;Talora&#9;5881"/>
+            <item value="Gabtoli&#9;5820"/>
+            <item value="Gabtoli&#9;Sukhanpukur&#9;5821"/>
+            <item value="Kahalu&#9;Kahalu&#9;5870"/>
+            <item value="Nandigram&#9;Nandigram&#9;5860"/>
+            <item value="Sariakandi&#9;Chandan Baisha&#9;5831"/>
+            <item value="Sariakandi&#9;Sariakandi&#9;5830"/>
+            <item value="Chandaikona&#9;5841"/>
+            <item value="Palli Unnyan Accadem&#9;5842"/>
+            <item value="5840"/>
+            <item value="Shibganj&#9;Shibganj&#9;5810"/>
+            <item value="Sonatola&#9;Sonatola&#9;5826"/>
+            <item value="JOYPURHAT"/>
+            <item value="Akkelpur&#9;Akklepur&#9;5940"/>
+            <item value="Akkelpur&#9;jamalganj&#9;5941"/>
+            <item value="Akkelpur&#9;Tilakpur&#9;5942"/>
+            <item value="Sadar&#9; Sadar&#9;5900"/>
+            <item value="kalai&#9;kalai&#9;5930"/>
+            <item value="Khetlal&#9;Khetlal&#9;5920"/>
+            <item value="panchbibi&#9;Panchbibi&#9;5910"/>
+            <item value="NAOGAON"/>
+            <item value="Ahsanganj&#9;Ahsanganj&#9;6596"/>
+            <item value="Ahsanganj&#9;Bandai&#9;6597"/>
+            <item value="Badalgachhi&#9;Badalgachhi&#9;6570"/>
+            <item value="Dhamuirhat&#9;Dhamuirhat&#9;6580"/>
+            <item value="Mahadebpur&#9;Mahadebpur&#9;6530"/>
+            <item value="Sadar&#9; Sadar&#9;6500"/>
+            <item value="Niamatpur&#9;Niamatpur&#9;6520"/>
+            <item value="Nitpur&#9;Nitpur&#9;6550"/>
+            <item value="Nitpur&#9;Panguria&#9;6552"/>
+            <item value="Nitpur&#9;Porsa&#9;6551"/>
+            <item value="Patnitala&#9;Patnitala&#9;6540"/>
+            <item value="Prasadpur&#9;Balihar&#9;6512"/>
+            <item value="Prasadpur&#9;Manda&#9;6511"/>
+            <item value="Prasadpur&#9;Prasadpur&#9;6510"/>
+            <item value="Raninagar&#9;Kashimpur&#9;6591"/>
+            <item value="Raninagar&#9;Raninagar&#9;6590"/>
+            <item value="Sapahar&#9;Moduhil&#9;6561"/>
+            <item value="Sapahar&#9;Sapahar&#9;6560"/>
+            <item value="NATORE"/>
+            <item value="Gopalpur UPO&#9;Abdulpur&#9;6422"/>
+            <item value="Gopalpur UPO&#9;Gopalpur U.P.O&#9;6420"/>
+            <item value="Gopalpur UPO&#9;Lalpur S.O&#9;6421"/>
+            <item value="Harua&#9;Baraigram&#9;6432"/>
+            <item value="Harua&#9;Dayarampur&#9;6431"/>
+            <item value="Harua&#9;Harua&#9;6430"/>
+            <item value="Hatgurudaspur&#9;Hatgurudaspur&#9;6440"/>
+            <item value="Laxman&#9;Laxman&#9;6410"/>
+            <item value="Sadar&#9;Baiddyabal Gharia6402"/>
+            <item value="Sadar&#9;Digapatia&#9;6401"/>
+            <item value="Sadar&#9;Madhnagar&#9;6403"/>
+            <item value="Sadar&#9; Sadar&#9;6400"/>
+            <item value="Singra&#9;Singra&#9;6450"/>
+            <item value="CHAPAI NABABGANJ"/>
+            <item value="Nachol&#9;Mandumala&#9;6311"/>
+            <item value="Nachol&#9;Nachol&#9;6310"/>
+            <item value="Rohanpur&#9;Gomashtapur&#9;6321"/>
+            <item value="Rohanpur&#9;Rohanpur&#9;6320"/>
+            <item value="Shibganj U.P.O&#9;Kansart&#9;6341"/>
+            <item value="Shibganj U.P.O&#9;Manaksha&#9;6342"/>
+            <item value="Shibganj U.P.O&#9;Shibganj U.P.O&#9;6340"/>
+            <item value="PABNA"/>
+            <item value="Banwarinagar&#9;Banwarinagar&#9;6650"/>
+            <item value="Bera&#9;Bera&#9;6680"/>
+            <item value="Bera&#9;Kashinathpur&#9;6682"/>
+            <item value="Bera&#9;Nakalia&#9;6681"/>
+            <item value="Bera&#9;Puran Bharenga&#9;6683"/>
+            <item value="Bhangura&#9;Bhangura&#9;6640"/>
+            <item value="Chatmohar&#9;Chatmohar&#9;6630"/>
+            <item value="Atghoria&#9;Atghoria&#9;6610"/>
+            <item value="Ishwardi&#9;Dhapari&#9;6621"/>
+            <item value="Ishwardi&#9;Ishwardi&#9;6620"/>
+            <item value="Ishwardi&#9;Pakshi&#9;6622"/>
+            <item value="Ishwardi&#9;Rajapur&#9;6623"/>
+            <item value="Sadar&#9;Hamayetpur&#9;6602"/>
+            <item value="Sadar&#9;Kaliko Cotton Mills6601"/>
+            <item value="Sadar&#9; Sadar&#9;6600"/>
+            <item value="Sathia&#9;Sathia&#9;6670"/>
+            <item value="Sujanagar&#9;Sagarkandi&#9;6661"/>
+            <item value="Sujanagar&#9;Sujanagar&#9;6660"/>
+            <item value="RAJSHAHI"/>
+            <item value="Bagha&#9;Arani&#9;6281"/>
+            <item value="Bagha&#9;Bagha&#9;6280"/>
+            <item value="Bagmara&#9;Bhabaniganj&#9;6250"/>
+            <item value="Bagmara&#9;Taharpur&#9;6251"/>
+            <item value="Charghat&#9;Charghat&#9;6270"/>
+            <item value="Charghat&#9;Sarda&#9;6271"/>
+            <item value="Durgapur&#9;Durgapur&#9;6240"/>
+            <item value="Godagari&#9;Godagari&#9;6290"/>
+            <item value="Godagari&#9;Premtoli&#9;6291"/>
+            <item value="Khod Mohanpur&#9;Khodmohanpur&#9;6220"/>
+            <item value="Lalitganj&#9;Lalitganj&#9;6210"/>
+            <item value="Lalitganj&#9; Sugar Mills6211"/>
+            <item value="Lalitganj&#9;Shyampur&#9;6212"/>
+            <item value="Putia&#9;Putia&#9;6260"/>
+            <item value="Sadar&#9;Binodpur Bazar&#9;6206"/>
+            <item value="Sadar&#9;Ghuramara&#9;6100"/>
+            <item value="Sadar&#9;Kazla&#9;6204"/>
+            <item value="Sadar&#9; Canttonment6202"/>
+            <item value="Sadar&#9; Court&#9;6201"/>
+            <item value="Sadar&#9; Sadar&#9;6000"/>
+            <item value="Sadar&#9; University6205"/>
+            <item value="Sadar&#9;Sapura&#9;6203"/>
+            <item value="Tanor&#9;Tanor&#9;6230"/>
+            <item value="SIRAJGANJ"/>
+            <item value="Baiddya Jam Toil&#9;Baiddya Jam Toil6730"/>
+            <item value="Belkuchi&#9;Belkuchi&#9;6740"/>
+            <item value="Belkuchi&#9;Enayetpur&#9;6751"/>
+            <item value="Belkuchi&#9;Rajapur&#9;6742"/>
+            <item value="Belkuchi&#9;Sohagpur&#9;6741"/>
+            <item value="Belkuchi&#9;Sthal&#9;6752"/>
+            <item value="Dhangora&#9;Dhangora&#9;6720"/>
+            <item value="Dhangora&#9;Malonga&#9;6721"/>
+            <item value="Kazipur&#9;Gandail&#9;6712"/>
+            <item value="Kazipur&#9;Kazipur&#9;6710"/>
+            <item value="Kazipur&#9;Shuvgachha&#9;6711"/>
+            <item value="Shahjadpur&#9;Jamirta&#9;6772"/>
+            <item value="Shahjadpur&#9;Kaijuri&#9;6773"/>
+            <item value="Shahjadpur&#9;Porjana&#9;6771"/>
+            <item value="Shahjadpur&#9;Shahjadpur&#9;6770"/>
+            <item value="Sadar&#9;Raipur&#9;6701"/>
+            <item value="Sadar&#9;Rashidabad&#9;6702"/>
+            <item value="Sadar&#9; Sadar&#9;6700"/>
+            <item value="Tarash&#9;Tarash&#9;6780"/>
+            <item value="Ullapara&#9;Lahiri Mohanpur&#9;6762"/>
+            <item value="Ullapara&#9;Salap&#9;6763"/>
+            <item value="Ullapara&#9;Ullapara&#9;6760"/>
+            <item value="Ullapara&#9;Ullapara R.S&#9;6761"/>
+            <item value="RANGPUR DIVISION"/>
+            <item value=""/>
+            <item value="DINAJPUR"/>
+            <item value="Bangla Hili&#9;Bangla Hili&#9;5270"/>
+            <item value="Biral&#9;Biral&#9;5210"/>
+            <item value="Birampur&#9;Birampur&#9;5266"/>
+            <item value="Birganj&#9;Birganj&#9;5220"/>
+            <item value="Chirirbandar&#9;Chirirbandar&#9;5240"/>
+            <item value="Chirirbandar&#9;Ranirbandar&#9;5241"/>
+            <item value="Sadar&#9; &#9;5201"/>
+            <item value="Sadar&#9; Sadar&#9;5200"/>
+            <item value="Khansama&#9;Khansama&#9;5230"/>
+            <item value="Khansama&#9;Pakarhat&#9;5231"/>
+            <item value="Maharajganj&#9;Maharajganj&#9;5226"/>
+            <item value="Nawabganj&#9;Daudpur&#9;5281"/>
+            <item value="Nawabganj&#9;Gopalpur&#9;5282"/>
+            <item value="Nawabganj&#9;Nawabganj&#9;5280"/>
+            <item value="Ghoraghat&#9;Ghoraghat&#9;5291"/>
+            <item value="Ghoraghat&#9;Osmanpur&#9;5290"/>
+            <item value="Parbatipur&#9;Parbatipur&#9;5250"/>
+            <item value="Phulbari&#9;Phulbari&#9;5260"/>
+            <item value="Setabganj&#9;Setabganj&#9;5216"/>
+            <item value="GAIBANDHA"/>
+            <item value="Bonarpara&#9;Bonarpara&#9;5750"/>
+            <item value="Bonarpara&#9;saghata&#9;5751"/>
+            <item value="Sadar&#9; Sadar&#9;5700"/>
+            <item value="Gobindaganj&#9;Gobindhaganj&#9;5740"/>
+            <item value="Gobindaganj&#9;Mahimaganj&#9;5741"/>
+            <item value="Palashbari&#9;Palashbari&#9;5730"/>
+            <item value="Phulchhari&#9;Bharatkhali&#9;5761"/>
+            <item value="Phulchhari&#9;Phulchhari&#9;5760"/>
+            <item value="Saadullapur&#9;Naldanga&#9;5711"/>
+            <item value="Saadullapur&#9;Saadullapur&#9;5710"/>
+            <item value="Sundarganj&#9;Bamandanga&#9;5721"/>
+            <item value="Sundarganj&#9;Sundarganj&#9;5720"/>
+            <item value="KURIGRAM"/>
+            <item value="Bhurungamari&#9;Bhurungamari&#9;5670"/>
+            <item value="Chilmari&#9;Chilmari&#9;5630"/>
+            <item value="Chilmari&#9;Jorgachh&#9;5631"/>
+            <item value="Sadar&#9; Sadar&#9;5600"/>
+            <item value="Sadar&#9;Pandul&#9;5601"/>
+            <item value="Sadar&#9;Phulbari&#9;5680"/>
+            <item value="Nageshwar&#9;Nageshwar&#9;5660"/>
+            <item value="Rajarhat&#9;Nazimkhan&#9;5611"/>
+            <item value="Rajarhat&#9;Rajarhat&#9;5610"/>
+            <item value="Rajibpur&#9;Rajibpur&#9;5650"/>
+            <item value="Roumari&#9;Roumari&#9;5640"/>
+            <item value="Ulipur&#9;Bozra hat&#9;5621"/>
+            <item value="Ulipur&#9;Ulipur&#9;5620"/>
+            <item value="LALMONIRHAT"/>
+            <item value="Aditmari&#9;Aditmari&#9;5510"/>
+            <item value="Hatibandha&#9;Hatibandha&#9;5530"/>
+            <item value="Sadar&#9;Kulaghat SO&#9;5502"/>
+            <item value="Sadar&#9; Sadar5500"/>
+            <item value="Sadar&#9;Moghalhat&#9;5501"/>
+            <item value="Patgram&#9;Baura&#9;5541"/>
+            <item value="Patgram&#9;Burimari&#9;5542"/>
+            <item value="Patgram&#9;Patgram&#9;5540"/>
+            <item value="Tushbhandar&#9;Tushbhandar&#9;5520"/>
+            <item value="NILPHAMARI ZILA"/>
+            <item value="Dimla&#9;Dimla&#9;5350"/>
+            <item value="Dimla&#9;Ghaga Kharibari&#9;5351"/>
+            <item value="Domar&#9;Chilahati&#9;5341"/>
+            <item value="Domar&#9;Domar&#9;5340"/>
+            <item value="Jal&#9;Jal&#9;5330"/>
+            <item value="Kishoriganj&#9;Kishoriganj&#9;5320"/>
+            <item value="Sadar&#9; Sadar5300"/>
+            <item value="Sadar&#9; Sugar Mil5301"/>
+            <item value="Saidpur&#9;Saidpur&#9;5310"/>
+            <item value="Saidpur&#9;Saidpur Upashahar&#9;5311"/>
+            <item value="PANCHAGARH"/>
+            <item value="Boda&#9;Boda&#9;5010"/>
+            <item value="Chotto Dab&#9;Chotto Dab&#9;5040"/>
+            <item value="Chotto Dab&#9;Mirjapur&#9;5041"/>
+            <item value="Dabiganj&#9;Dabiganj&#9;5020"/>
+            <item value="Panchagra Sadar&#9;Panchagar Sadar&#9;5000"/>
+            <item value="Tetulia&#9;Tetulia&#9;5030"/>
+            <item value="RANGPUR"/>
+            <item value="Taraganj&#9;Taraganj&#9;5420"/>
+            <item value="Badarganj&#9;Shyampur&#9;5431"/>
+            <item value="Gangachara&#9;Gangachara&#9;5410"/>
+            <item value="Kaunia&#9;Haragachh&#9;5441"/>
+            <item value="Kaunia&#9;Kaunia&#9;5440"/>
+            <item value="Mithapukur&#9;Mithapukur&#9;5460"/>
+            <item value="Pirgachha&#9;Pirgachha&#9;5450"/>
+            <item value="Sadar&#9;Alamnagar&#9;5402"/>
+            <item value="Sadar&#9;Mahiganj&#9;5403"/>
+            <item value="Sadar&#9; Cadet Colleg&#9;5404"/>
+            <item value="Sadar&#9; Carmiecal Col&#9;5405"/>
+            <item value="Sadar&#9; Sadar&#9;5400"/>
+            <item value="Sadar&#9; UpaShahar&#9;5401"/>
+            <item value="Badarganj&#9;Badarganj&#9;5430"/>
+            <item value="Pirganj&#9;Pirganj&#9;5470"/>
+            <item value="THAKURGAON"/>
+            <item value="Baliadangi&#9;Baliadangi&#9;5140"/>
+            <item value="Baliadangi&#9;Lahiri&#9;5141"/>
+            <item value="Jibanpur&#9;Jibanpur&#9;5130"/>
+            <item value="Pirganj&#9;Pirganj&#9;5110"/>
+            <item value="Rani Sankail&#9;Nekmarad&#9;5121"/>
+            <item value="Rani Sankail&#9;Rani Sankail&#9;5120"/>
+            <item value="Sadar&#9;Ruhia&#9;5103"/>
+            <item value="Sadar&#9;Shibganj&#9;5102"/>
+            <item value="Sadar&#9; Road&#9;5101"/>
+            <item value="Sadar&#9; Sadar5100"/>
+            <item value=""/>
+            <item value="SYLHET DIVISION"/>
+            <item value=""/>
+            <item value="HABIGANJ"/>
+            <item value="Azmireeganj&#9;Azmireeganj&#9;3360"/>
+            <item value="Bahubal&#9;Bahubal&#9;3310"/>
+            <item value="Baniachang&#9;Baniachang&#9;3350"/>
+            <item value="Baniachang&#9;Jatrapasha&#9;3351"/>
+            <item value="Baniachang&#9;Kadirganj&#9;3352"/>
+            <item value="Chunarughat&#9;Chandpurbagan&#9;3321"/>
+            <item value="Chunarughat&#9;Chunarughat&#9;3320"/>
+            <item value="Chunarughat&#9;Narapati&#9;3322"/>
+            <item value="Sadar&#9;Gopaya&#9;3302"/>
+            <item value="Sadar&#9; Sadar&#9;3300"/>
+            <item value="Sadar&#9;Shaestaganj&#9;3301"/>
+            <item value="Kalauk&#9;Kalauk&#9;3340"/>
+            <item value="Kalauk&#9;Lakhai&#9;3341"/>
+            <item value="Madhabpur&#9;Itakhola&#9;3331"/>
+            <item value="Madhabpur&#9;Madhabpur&#9;3330"/>
+            <item value="Madhabpur&#9;Saihamnagar&#9;3333"/>
+            <item value="Madhabpur&#9;Shahajibazar&#9;3332"/>
+            <item value="Nabiganj&#9;Digalbak&#9;3373"/>
+            <item value="Nabiganj&#9;Golduba&#9;3372"/>
+            <item value="Nabiganj&#9;Goplarbazar&#9;3371"/>
+            <item value="Nabiganj&#9;Inathganj&#9;3374"/>
+            <item value="Nabiganj&#9;Nabiganj&#9;3370"/>
+            <item value="MAULVIBAZAR"/>
+            <item value="Baralekha&#9;Baralekha&#9;3250"/>
+            <item value="Baralekha&#9;Dhakkhinbag&#9;3252"/>
+            <item value="Baralekha&#9;Juri&#9;3251"/>
+            <item value="Baralekha&#9;Purbashahabajpur3253"/>
+            <item value="Kamalganj&#9;Kamalganj&#9;3220"/>
+            <item value="Kamalganj&#9;Keramatnaga&#9;3221"/>
+            <item value="Kamalganj&#9;Munshibazar&#9;3224"/>
+            <item value="Kamalganj&#9;Patrakhola&#9;3222"/>
+            <item value="Kamalganj&#9;Shamsher Nagar&#9;3223"/>
+            <item value="Kulaura&#9;Baramchal&#9;3237"/>
+            <item value="Kulaura&#9;Kajaldhara&#9;3234"/>
+            <item value="Kulaura&#9;Karimpur&#9;3235"/>
+            <item value="Kulaura&#9;Kulaura&#9;3230"/>
+            <item value="Kulaura&#9;Langla&#9;3232"/>
+            <item value="Kulaura&#9;Prithimpasha&#9;3233"/>
+            <item value="Kulaura&#9;Tillagaon&#9;3231"/>
+            <item value="Sadar&#9;Afrozganj&#9;3203"/>
+            <item value="Sadar&#9;Barakapan&#9;3201"/>
+            <item value="Sadar&#9;Monumukh&#9;3202"/>
+            <item value="Sadar&#9; Sadar3200"/>
+            <item value="Rajnagar&#9;Rajnagar&#9;3240"/>
+            <item value="Srimangal&#9;Kalighat&#9;3212"/>
+            <item value="Srimangal&#9;Khejurichhara&#9;3213"/>
+            <item value="Srimangal&#9;Narain Chora&#9;3211"/>
+            <item value="Srimangal&#9;Satgaon&#9;3214"/>
+            <item value="Srimangal&#9;Srimangal&#9;3210"/>
+            <item value="SUNAMGANJ"/>
+            <item value="Bishamsarpur&#9;Bishamsapur&#9;3010"/>
+            <item value="Chhatak&#9;Chhatak&#9;3080"/>
+            <item value="Chhatak&#9;Chhatak Cement Facto&#9;3081"/>
+            <item value="Chhatak&#9;Chhatak Paper Mills&#9;3082"/>
+            <item value="Chhatak&#9;Chourangi Bazar&#9;3893"/>
+            <item value="Chhatak&#9;Gabindaganj&#9;3083"/>
+            <item value="Chhatak&#9;Gabindaganj Natun Ba&#9;3084"/>
+            <item value="Chhatak&#9;Islamabad&#9;3088"/>
+            <item value="Chhatak&#9;jahidpur&#9;3087"/>
+            <item value="Chhatak&#9;Khurma&#9;3085"/>
+            <item value="Chhatak&#9;Moinpur&#9;3086"/>
+            <item value="Dhirai Chandpur&#9;Dhirai Chandpur&#9;3040"/>
+            <item value="Dhirai Chandpur&#9;Jagdal&#9;3041"/>
+            <item value="Duara bazar&#9;Duara bazar&#9;3070"/>
+            <item value="Ghungiar&#9;Ghungiar&#9;3050"/>
+            <item value="Jagnnathpur&#9;Atuajan&#9;3062"/>
+            <item value="Jagnnathpur&#9;Hasan Fatemapur&#9;3063"/>
+            <item value="Jagnnathpur&#9;Jagnnathpur&#9;3060"/>
+            <item value="Jagnnathpur&#9;Rasulganj&#9;3064"/>
+            <item value="Jagnnathpur&#9;Shiramsi&#9;3065"/>
+            <item value="Jagnnathpur&#9;Syedpur&#9;3061"/>
+            <item value="Sachna&#9;Sachna&#9;3020"/>
+            <item value="Sadar&#9;Pagla&#9;3001"/>
+            <item value="Sadar&#9;Patharia&#9;3002"/>
+            <item value="Sadar&#9; Sadar&#9;3000"/>
+            <item value="Tahirpur&#9;Tahirpur&#9;3030"/>
+            <item value="SYLHET"/>
+            <item value="Balaganj&#9;Balaganj&#9;3120"/>
+            <item value="Balaganj&#9;Begumpur&#9;3125"/>
+            <item value="Balaganj&#9;Brahman Shashon&#9;3122"/>
+            <item value="Balaganj&#9;Gaharpur&#9;3128"/>
+            <item value="Balaganj&#9;Goala Bazar&#9;3124"/>
+            <item value="Balaganj&#9;Karua&#9;3121"/>
+            <item value="Balaganj&#9;Kathal Khair&#9;3127"/>
+            <item value="Balaganj&#9;Natun Bazar&#9;3129"/>
+            <item value="Balaganj&#9;Omarpur&#9;3126"/>
+            <item value="Balaganjgfhfghj&#9;Tajpur&#9;3123"/>
+            <item value="Bianibazar&#9;Bianibazar&#9;3170"/>
+            <item value="Bianibazar&#9;Churkai&#9;3175"/>
+            <item value="Bianibazar&#9;jaldup&#9;3171"/>
+            <item value="Bianibazar&#9;Kurar bazar&#9;3173"/>
+            <item value="Bianibazar&#9;Mathiura&#9;3172"/>
+            <item value="Bianibazar&#9;Salia bazar&#9;3174"/>
+            <item value="Bishwanath&#9;Bishwanath&#9;3130"/>
+            <item value="Bishwanath&#9;Dashghar&#9;3131"/>
+            <item value="Bishwanath&#9;Deokalas&#9;3133"/>
+            <item value="Bishwanath&#9;Doulathpur&#9;3132"/>
+            <item value="Bishwanath&#9;Singer kanch&#9;3134"/>
+            <item value="Fenchuganj&#9;Fenchuganj&#9;3116"/>
+            <item value="Fenchuganj&#9;Fenchuganj SareKarkh&#9;3117"/>
+            <item value="Goainhat&#9;Chiknagul&#9;3152"/>
+            <item value="Goainhat&#9;Goainhat&#9;3150"/>
+            <item value="Goainhat&#9;Jaflong&#9;3151"/>
+            <item value="banigram&#9;3164"/>
+            <item value="Chandanpur&#9;3165"/>
+            <item value="Dakkhin Bhadashore&#9;3162"/>
+            <item value="Dakkhin&#9;3161"/>
+            <item value="Gopalgannj&#9;3160"/>
+            <item value="Ranaping&#9;3163"/>
+            <item value="Jaintapur&#9;Jainthapur&#9;3156"/>
+            <item value="Jakiganj&#9;Ichhamati&#9;3191"/>
+            <item value="Jakiganj&#9;Jakiganj&#9;3190"/>
+            <item value="Kanaighat&#9;Chatulbazar&#9;3181"/>
+            <item value="Kanaighat&#9;Gachbari&#9;3183"/>
+            <item value="Kanaighat&#9;Kanaighat&#9;3180"/>
+            <item value="Kanaighat&#9;&#9;3182"/>
+            <item value="Kompanyganj&#9;Kompanyganj&#9;3140"/>
+            <item value="Sadar&#9;Birahimpur&#9;3106"/>
+            <item value="Sadar&#9;Jalalabad&#9;3107"/>
+            <item value="Sadar&#9;Jalalabad Cantoment&#9;3104"/>
+            <item value="Sadar&#9;Kadamtali&#9;3111"/>
+            <item value="Sadar&#9;Kamalbazer&#9;3112"/>
+            <item value="Sadar&#9;Khadimnagar&#9;3103"/>
+            <item value="Sadar&#9;Lalbazar&#9;3113"/>
+            <item value="Sadar&#9;Mogla&#9;3108"/>
+            <item value="Sadar&#9;Ranga Hajiganj&#9;3109"/>
+            <item value="Sadar&#9;Shahajalal Science &amp;&#9;3114"/>
+            <item value="Sadar&#9;Silam&#9;3105"/>
+            <item value="Sadar&#9; Sadar&#9;3100"/>
+            <item value="Sadar&#9; Biman Bondar&#9;3102"/>
+            <item value="Sadar&#9; Cadet Col&#9;3101"/>
+          </model>
+        </properties>
+      </component>
+      <component id="39626" class="javax.swing.JTextField" binding="a088TextField" default-binding="true">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="+088"/>
+        </properties>
+      </component>
+      <component id="4343b" class="javax.swing.JComboBox" binding="birthyear">
+        <constraints>
+          <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Year"/>
+            <item value="2050"/>
+            <item value="2049"/>
+            <item value="2048"/>
+            <item value="2047"/>
+            <item value="2046"/>
+            <item value="2045"/>
+            <item value="2044"/>
+            <item value="2043"/>
+            <item value="2042"/>
+            <item value="2041"/>
+            <item value="2040"/>
+            <item value="2039"/>
+            <item value="2038"/>
+            <item value="2037"/>
+            <item value="2036"/>
+            <item value="2035"/>
+            <item value="2034"/>
+            <item value="2033"/>
+            <item value="2032"/>
+            <item value="2031"/>
+            <item value="2030"/>
+            <item value="2029"/>
+            <item value="2028"/>
+            <item value="2027"/>
+            <item value="2026"/>
+            <item value="2025"/>
+            <item value="2024"/>
+            <item value="2023"/>
+            <item value="2022"/>
+            <item value="2021"/>
+            <item value="2020"/>
+            <item value="2019"/>
+            <item value="2018"/>
+            <item value="2017"/>
+            <item value="2016"/>
+            <item value="2015"/>
+            <item value="2014"/>
+            <item value="2013"/>
+            <item value="2012"/>
+            <item value="2011"/>
+            <item value="2010"/>
+            <item value="2009"/>
+            <item value="2008"/>
+            <item value="2007"/>
+            <item value="2006"/>
+            <item value="2005"/>
+            <item value="2004"/>
+            <item value="2003"/>
+            <item value="2002"/>
+            <item value="2001"/>
+            <item value="2000"/>
+            <item value="1999"/>
+            <item value="1998"/>
+            <item value="1997"/>
+            <item value="1996"/>
+            <item value="1995"/>
+            <item value="1994"/>
+            <item value="1993"/>
+            <item value="1992"/>
+            <item value="1991"/>
+            <item value="1990"/>
+            <item value="1989"/>
+            <item value="1988"/>
+            <item value="1987"/>
+            <item value="1986"/>
+            <item value="1985"/>
+            <item value="1984"/>
+            <item value="1983"/>
+            <item value="1982"/>
+            <item value="1981"/>
+            <item value="1980"/>
+          </model>
+        </properties>
+      </component>
+      <component id="55a1f" class="javax.swing.JComboBox" binding="joinyear">
+        <constraints>
+          <grid row="15" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="12" style="3"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Year"/>
+            <item value="2010"/>
+            <item value="2011"/>
+            <item value="2012"/>
+            <item value="2013"/>
+            <item value="2014"/>
+            <item value="2015"/>
+            <item value="2016"/>
+            <item value="2017"/>
+            <item value="2018"/>
+            <item value="2019"/>
+            <item value="2020"/>
+            <item value="2021"/>
+            <item value="2022"/>
+            <item value="2023"/>
+            <item value="2024"/>
+            <item value="2025"/>
+          </model>
+        </properties>
+      </component>
+      <component id="c4951" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="12" style="1"/>
+          <foreground color="-1"/>
+          <text value="DIVISITION"/>
+        </properties>
+      </component>
+      <component id="a8d11" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="12" style="1"/>
+          <foreground color="-1"/>
+          <text value="DISTRICT"/>
+        </properties>
+      </component>
+      <component id="69ec9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="12" style="1"/>
+          <foreground color="-1"/>
+          <text value="POST CODE"/>
+        </properties>
+      </component>
+      <component id="a1355" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="12" style="1"/>
+          <foreground color="-1"/>
+          <text value="TK"/>
+        </properties>
+      </component>
+      <component id="d3ab5" class="javax.swing.JLabel" binding="exit">
+        <constraints>
+          <grid row="15" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="60" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2fe85" class="javax.swing.JButton" binding="saveButton" default-binding="true">
+        <constraints>
+          <grid row="15" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5918992"/>
+          <font size="16" style="3"/>
+          <foreground color="-1"/>
+          <text value="Save"/>
+        </properties>
+      </component>
+      <component id="e7714" class="javax.swing.JComboBox" binding="genderComboBox" default-binding="true">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="MALE"/>
+            <item value="FEMALE"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoScrollPane" id="52ebf"/>
+  </inspectionSuppressions>
+</form>
